@@ -6,8 +6,21 @@
 h1 {
   font-family: 'Poppins', sans-serif;
 }
-.page-intro {
-
+.navbar-dark {
+  background-color: #0E0E0E;
+  color: #ffffff;
+}
+.banner {
+  background-color: #0E0E0E;
+  padding-top: 90px;
+  margin-top: -90px;
+  .card {
+    border: none;
+    border-radius: none ;
+  }
+  img {
+    margin-bottom: -90px;;
+  }
 }
 .material-icons {
   font-family: 'Material Icons';
