@@ -3,12 +3,16 @@
 // fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-h1 {
+body {
   font-family: 'Poppins', sans-serif;
 }
 .navbar-dark {
   background-color: #0E0E0E;
   color: #ffffff;
+}
+.py-160 {
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 .banner {
   background-color: #0E0E0E;
@@ -20,6 +24,13 @@ h1 {
   }
   .carousel {
     margin-bottom: -90px;
+    .carousel-caption {
+      text-align: left;
+      bottom: 30%;
+      h2 {
+      font-size: 60px;
+      }
+    }
     .carousel-indicators {
       button {
       height: 20px;

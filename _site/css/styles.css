@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-h1 { font-family: 'Poppins', sans-serif; }
+body { font-family: 'Poppins', sans-serif; }
 
 .navbar-dark { background-color: #0E0E0E; color: #ffffff; }
+
+.py-160 { padding-top: 160px; padding-bottom: 160px; }
 
 .banner { background-color: #0E0E0E; padding-top: 90px; margin-top: -90px; }
 
@@ -9,8 +11,10 @@ h1 { font-family: 'Poppins', sans-serif; }
 
 .banner .carousel { margin-bottom: -90px; }
 
+.banner .carousel .carousel-caption { text-align: left; bottom: 30%; }
+
+.banner .carousel .carousel-caption h2 { font-size: 60px; }
+
 .banner .carousel .carousel-indicators button { height: 20px; background-color: transparent; color: #ffffff; }
 
 .material-icons { font-family: 'Material Icons'; font-weight: normal; font-style: normal; font-size: 24px; /* Preferred icon size */ display: inline-block; line-height: 1; text-transform: none; letter-spacing: normal; word-wrap: normal; white-space: nowrap; direction: ltr; /* Support for all WebKit browsers. */ -webkit-font-smoothing: antialiased; /* Support for Safari and Chrome. */ text-rendering: optimizeLegibility; /* Support for Firefox. */ -moz-osx-font-smoothing: grayscale; /* Support for IE. */ font-feature-settings: 'liga'; }
-
-/*# sourceMappingURL=styles.css.map */
