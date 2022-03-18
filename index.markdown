@@ -6,7 +6,7 @@ banner:
 - image: "/v1647593691/naaman/web/nikon-zebras.jpg"
   image_alt: Nikon Zebras - Alfie Bowen
   title: Nikon Europe
-  url: "3"
+  url: "#"
   image_gravity: g_center
 
 ---
