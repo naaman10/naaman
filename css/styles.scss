@@ -20,6 +20,13 @@ h1 {
   }
   .carousel {
     margin-bottom: -90px;
+    .carousel-indicators {
+      button {
+      height: 20px;
+      background-color: transparent;
+      color: #ffffff;
+      }
+    }
   }
 }
 .material-icons {

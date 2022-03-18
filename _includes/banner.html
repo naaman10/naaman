@@ -2,11 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-10 offset-md-1">
-                <div id="homeBanner" class="carousel slide" data-bs-ride="carousel">
+                <div id="homeBanner" class="carousel carousel-fade slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         {% for slide in page.banner %}
-                      <div class="carousel-item active">
-                        <img src="{{ site.cloudinary_url }}c_crop,{{ slide.image_gravity }},h_1080,w_1920{{ slide.image }}" class="d-block w-100" alt="{{ slide.image_alt }}"><div class="carousel-caption d-none d-md-block">
+                      <div class="carousel-item {% if forloop.index == 1 %}active{% endif %}">
+                        <img src="{{ site.cloudinary_url }}c_crop,{{ slide.image_gravity }},h_1080,w_1920{{ slide.image }}" class="d-block w-100" alt="{{ slide.image_alt }}">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>{{ slide.title }}</h2>
                         </div>
