@@ -26,6 +26,28 @@ fields:
     config:
       required: false
     label: Image Alt
+  - name: image_gravity
+    type: select
+    default: g_auto
+    config:
+      required: true
+      options:
+      - g_center
+      - g_north_west
+      - g_north
+      - g_north_east
+      - g_south
+      - g_south_west
+      - g_south_east
+      - g_faces:center
+      - g_faces:auto
+      - g_auto
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Image Gravity
   - name: title
     type: text
     config:
