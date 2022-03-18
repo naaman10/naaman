@@ -7,5 +7,6 @@ banner:
   image_alt: Nikon Zebras - Alfie Bowen
   title: Nikon Europe
   url: "3"
+  image_gravity: g_center
 
 ---
