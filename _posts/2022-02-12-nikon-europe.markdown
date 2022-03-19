@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  "Nikon Europe"
-intro: European Digital Transformation 
+intro: Digital Transformation and Redesign of all European Sites &s Platforms
 client: Nikon
 date:   2022-02-12 23:06:41 +0000
-
-categories: digital
+main-image: "/v1647593691/naaman/web/nikon-zebras.jpg"
+category: digital
 ---
+
+## Introduction
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:

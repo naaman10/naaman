@@ -21,6 +21,20 @@ body { font-family: 'Poppins', sans-serif; }
 
 .banner .carousel .carousel-indicators button { height: 20px; background-color: transparent; color: #ffffff; }
 
-.material-icons { font-family: 'Material Icons'; font-weight: normal; font-style: normal; font-size: 24px; /* Preferred icon size */ display: inline-block; line-height: 1; text-transform: none; letter-spacing: normal; word-wrap: normal; white-space: nowrap; direction: ltr; /* Support for all WebKit browsers. */ -webkit-font-smoothing: antialiased; /* Support for Safari and Chrome. */ text-rendering: optimizeLegibility; /* Support for Firefox. */ -moz-osx-font-smoothing: grayscale; /* Support for IE. */ font-feature-settings: 'liga'; }
+.borderless { border: 0px solid transparent !important; }
+
+.mt-n30, .my-n30 { margin-top: -30px !important; }
+
+.mb-n10, .my-n10 { margin-bottom: -10px !important; }
+
+.pb-130, .py-130 { padding-bottom: 130px !important; }
+
+.pt-100, .py-100 { padding-top: 100px !important; }
+
+.img-zoom { overflow: hidden; }
+
+.img-zoom img { transition: transform .5s ease; }
+
+.img-zoom img:hover { transform: scale(1.1); }
 
 /*# sourceMappingURL=styles.css.map */
