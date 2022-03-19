@@ -9,6 +9,12 @@ body {
 .navbar-dark {
   background-color: #0E0E0E;
   color: #ffffff;
+  .navbar-toggler {
+    border: none;
+  }
+}
+.offcanvas-end {
+  border-left: none;
 }
 .py-160 {
   padding-top: 160px;

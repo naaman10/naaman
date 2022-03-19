@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Nikon Europe"
+intro: European Digital Transformation 
+client: Nikon
 date:   2022-02-12 23:06:41 +0000
-categories: portfolio
+
+categories: digital
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
