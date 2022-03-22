@@ -13,6 +13,12 @@ body {
     border: none;
   }
 }
+.offcanvas {
+  width: 100%;
+}
+.nav-link {
+  color: #0E0E0E!important;
+}
 .offcanvas-end {
   border-left: none;
 }
@@ -32,9 +38,8 @@ body {
     margin-bottom: -90px;
     .carousel-caption {
       text-align: left;
-      bottom: 30%;
       h2 {
-      font-size: 60px;
+
       }
     }
     .carousel-indicators {

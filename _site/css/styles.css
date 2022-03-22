@@ -5,6 +5,10 @@ body { font-family: 'Poppins', sans-serif; }
 
 .navbar-dark .navbar-toggler { border: none; }
 
+.offcanvas { width: 100%; }
+
+.nav-link { color: #0E0E0E !important; }
+
 .offcanvas-end { border-left: none; }
 
 .py-160 { padding-top: 160px; padding-bottom: 160px; }
@@ -15,9 +19,7 @@ body { font-family: 'Poppins', sans-serif; }
 
 .banner .carousel { margin-bottom: -90px; }
 
-.banner .carousel .carousel-caption { text-align: left; bottom: 30%; }
-
-.banner .carousel .carousel-caption h2 { font-size: 60px; }
+.banner .carousel .carousel-caption { text-align: left; }
 
 .banner .carousel .carousel-indicators button { height: 20px; background-color: transparent; color: #ffffff; }
 
