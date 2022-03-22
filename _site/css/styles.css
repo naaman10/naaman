@@ -5,7 +5,7 @@ body { font-family: 'Poppins', sans-serif; }
 
 .navbar-dark .navbar-toggler { border: none; }
 
-.page-intro { min-height: 70vh; }
+.page-intro { min-height: 50vh; }
 
 .section-dark { background-color: #0E0E0E; color: #ffffff; }
 
