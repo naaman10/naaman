@@ -9,36 +9,29 @@ layout: default
     </div>
 </section>
 
-<section class="container">
+<section class="container-fluid section-black">
     <div class="row">
+        <div class="col-12 col-md-8 offset-md-2">
         <div class="row row-cols-1 row-cols-md-3 g-4">
+            {% for category in page.categories %}
             <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+                <a href="{{ category.link }}">
+              <div class="card p-0 img-zoom animate__animated animate__fadeInUp">
+                <img src="{{ site.cloudinary_url }}{{ category.image.image }}" class="card-img-top " alt="{{ category.image.alt }}">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">{{ category.title }}</h5>
+                  <p class="card-text">{{ category.description | markdownify }}</p>
+
                 </div>
+                <div class="card-footer text-end">
+                    <i class="fa fa-solid fa-right-long"></i>
+                  </div>
               </div>
+            </a>
             </div>
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
-            </div>
+            {% endfor %}
+            
+          </div>
           </div>
     </div>
 </section>

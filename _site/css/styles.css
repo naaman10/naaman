@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 body { font-family: 'Poppins', sans-serif; }
 
+a { text-decoration: none; }
+
 .navbar-dark { background-color: #0E0E0E; color: #ffffff; }
 
 .navbar-dark .navbar-toggler { border: none !important; color: #ffffff; }
@@ -37,10 +39,24 @@ body { font-family: 'Poppins', sans-serif; }
 
 .pt-100, .py-100 { padding-top: 100px !important; }
 
-.img-zoom { overflow: hidden; }
+.img-zoom { overflow: hidden !important; }
 
 .img-zoom img { transition: transform .5s ease; }
 
 .img-zoom img:hover { transform: scale(1.1); }
+
+.section-black { background-color: #0E0E0E; min-height: 50vh; }
+
+.section-black .row-cols-1 { margin-top: -200px; }
+
+.section-black a .card { border-radius: 0; border: none; color: #0E0E0E; text-decoration: none; }
+
+.section-black a .card h5 { text-decoration: none; }
+
+.section-black a .card p { text-decoration: none; }
+
+.section-black a .card img { border-radius: 0; }
+
+.section-black a .card .card-footer { background-color: #ffffff; border: none; font-size: 28px; }
 
 /*# sourceMappingURL=styles.css.map */
