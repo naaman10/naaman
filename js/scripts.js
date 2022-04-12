@@ -10,6 +10,7 @@ document.getElementById("copyUrl").addEventListener("click", function(event){
     var utm = "?utm_source=site&utm_medium=share";
     navigator.clipboard.writeText(url + utm);
     console.log(event);
-
+    var toastLiveExample = document.getElementById('liveToast')
+    var toast = new bootstrap.Toast(toastLiveExample)
+    toast.show()
 });
-
