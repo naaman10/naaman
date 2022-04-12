@@ -3,7 +3,7 @@ body { font-family: 'Poppins', sans-serif; }
 
 .navbar-dark { background-color: #0E0E0E; color: #ffffff; }
 
-.navbar-dark .navbar-toggler { border: none; }
+.navbar-dark .navbar-toggler { border: none !important; color: #ffffff; }
 
 .page-intro { min-height: 50vh; }
 
