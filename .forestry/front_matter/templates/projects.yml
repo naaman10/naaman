@@ -56,3 +56,5 @@ fields:
     max: 3
     labelField: 
   label: Categories
+pages:
+- projects.markdown
