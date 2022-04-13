@@ -1,0 +1,7 @@
+{% for section in page.sections %}
+  {% if section.template == "image-right" %}
+    {% include _blocks/image_right.html %}
+  {% elsif section.template == "image-left" %}
+    {% include _blocks/image_left.html %}
+  {% endif %}
+{%endfor%}

@@ -6,11 +6,11 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 });
 document.getElementById("copyUrl").addEventListener("click", function(event){
     event.preventDefault();
-    var url = window.location.href;
-    var utm = "?utm_source=site&utm_medium=share";
-    navigator.clipboard.writeText(url + utm);
-    console.log(event);
-    var toastLiveExample = document.getElementById('liveToast')
-    var toast = new bootstrap.Toast(toastLiveExample)
+    var i = window.location.href;
+    var ii = encodeURIComponent(document.title);
+    var iii = '?utm_source=' + ii + '&utm_medium=share';
+    navigator.clipboard.writeText(i + iii);
+    var iiii = document.getElementById('liveToast')
+    var toast = new bootstrap.Toast(iiii)
     toast.show()
 });
