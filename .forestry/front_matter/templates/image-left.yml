@@ -26,3 +26,10 @@ fields:
     schema:
       format: markdown
   label: Text
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
+  default: image_left
+  hidden: true
