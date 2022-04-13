@@ -34,3 +34,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- _posts/2022-02-12-nikon-europe.markdown
