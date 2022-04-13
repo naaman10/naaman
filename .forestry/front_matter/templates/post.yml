@@ -5,21 +5,30 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: post
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: intro
-  label: intro
+  label: Intro
 - type: text
   name: client
-  label: client
+  label: Client
 - type: datetime
   name: date
   label: date
 - type: file
   name: main-image
-  label: main-image
+  label: Main Image
 - type: text
   name: category
-  label: category
+  label: Category
+- name: sections
+  type: blocks
+  label: Sections
+  template_types: []
+  config:
+    min: 
+    max: 
