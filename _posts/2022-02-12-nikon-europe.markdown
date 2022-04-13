@@ -16,6 +16,15 @@ sections:
     natoque adipiscing. Proin nullam interdum venenatis libero sed vitae elementum.
     Lobortis ornare in facilisi ut dui ac dictum. Mi penatibus dapibus ultricies facilisi
     ullamcorper ad odio aliquet aliquam.
+  name: ''
+- template: image-right-dark
+  image:
+    image: "/v1649864549/naaman/web/iPhone_12_Pro_-_Dark_ckpcfw.png"
+    alt: Iphone screenshot
+  text: |-
+    Lorem ipsum dolor sit amet himenaeos. Finibus lobortis himenaeos elementum auctor sollicitudin platea ad et pulvinar dignissim. Consequat ligula finibus dui ornare ridiculus bibendum platea leo ullamcorper mus eleifend. Class taciti tristique purus cursus hendrerit laoreet magnis rutrum. Mus integer non dui arcu at duis conubia quis est lectus. Dapibus augue faucibus sollicitudin viverra pretium praesent nisl interdum. Sem mauris tristique elit pede at.
+
+    Augue efficitur tempus praesent nunc feugiat sapien natoque dolor nibh himenaeos. Fames taciti viverra lobortis scelerisque commodo hendrerit vivamus vestibulum quam libero tempus. Mattis si nullam ligula elit quis amet. Sapien sollicitudin erat tristique fames commodo nunc netus id praesent consequat cras. Quam felis ante diam est blandit ex pellentesque montes.
 
 ---
 ## Introduction
