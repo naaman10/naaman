@@ -28,7 +28,9 @@ fields:
 - name: sections
   type: blocks
   label: Sections
-  template_types: []
+  template_types:
+  - image-left
+  - image-right
   config:
     min: 
     max: 
