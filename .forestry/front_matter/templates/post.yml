@@ -32,6 +32,7 @@ fields:
   - image-left
   - image-right
   - image-right-dark
+  - text
   config:
     min: 
     max: 
