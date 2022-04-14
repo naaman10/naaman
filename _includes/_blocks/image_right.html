@@ -4,7 +4,23 @@
             <p>{{ section.text }}</p>
         </div>
         <div class="col-12 col-md-6">
-            <img class="img-fluid" src="{{ site.cloudinary_url }}">
+            <img class="img-fluid imageEnlarge" data-bs-toggle="modal" data-bs-target="#{{ section.image.alt | slugify}}" src="{{ site.cloudinary_url }}">
         </div>
     </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="{{ section.image.alt | slugify}}" tabindex="-1"
+    aria-labelledby="{{ section.image.alt }} - Enlarged" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="{{ site.cloudinary_url }}{{ section.image.image }}" alt="{{ section.image.alt }} - Enlarged"
+                    class="img-fluid ">
+            </div>
+        </div>
+    </div>
+</div>

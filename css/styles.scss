@@ -120,3 +120,8 @@ a {
 .aboutImage {
    margin-top: -200px;
 }
+.imageEnlarge {
+  &:hover{
+    cursor: url('https://res.cloudinary.com/njh101010/image/upload/c_scale,w_41/v1649927689/naaman/zoom.png'), auto;	
+  }
+}
