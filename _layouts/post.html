@@ -44,9 +44,10 @@ layout: default
 <section class="container mt-4">
     <div class="row">
         {{ content }}
-        {% include _blocks/sections.html %}
+        
     </div>
 </section>
+{% include _blocks/sections.html %}
 
 <!-- toast displays when url is copied -->
 <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
