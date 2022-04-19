@@ -33,7 +33,7 @@ sections:
 - template: image-full-width
   background: Dark
   image:
-    image: "/v1649775244/naaman/web/CNV00033_l1lkul.jpg"
+    image: "/v1650365164/naaman/web/BIG-2-1.jpg"
     alt: Image Alt Text
     caption: This is a test image full width
   enlarge: true
