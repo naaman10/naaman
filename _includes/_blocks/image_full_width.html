@@ -1,8 +1,8 @@
-<section class="container-fluid {% if section.background == "Dark" %}section-black{% endif %}">
+<section class="container-fluid p-4 {% if section.background == "Dark" %}section-black{% endif %}">
     <div class="row">
         <div class="col">
             <figure class="figure">
-                <img class="figure-img img-fluid {% if section.modal %}imageEnlarge" data-bs-toggle="modal" data-bs-target="#{{ section.image.alt | slugify}}" {% else %}"{% endif %} alt="{{ section.image.alt }}" src="{{ site.cloudinary_url }}{{ section.image.image }}">
+                <img class="figure-img img-fluid {% if section.enlarge %}imageEnlarge" data-bs-toggle="modal" data-bs-target="#{{ section.image.alt | slugify}}" {% else %}"{% endif %} alt="{{ section.image.alt }}" src="{{ site.cloudinary_url }}{{ section.image.image }}">
                 {% if section.image.caption %}
                 <figcaption class="figure-caption">{{ section.image.caption}}</figcaption>
                 {% endif %}
@@ -11,7 +11,7 @@
     </div>
 </section>
 
-{% if section.modal %}
+{% if section.enlarge %}
 <div class="modal fade" id="{{ section.image.alt | slugify}}" tabindex="-1"
     aria-labelledby="{{ section.image.alt }} - Enlarged" aria-hidden="true">
     <div class="modal-dialog modal-xl">
