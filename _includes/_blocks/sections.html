@@ -5,6 +5,8 @@
     {% include _blocks/image_right_dark.html %}
   {% elsif section.template == "text" %}
     {% include _blocks/text.html %}
+  {% elsif section.template == "image-full-width" %}
+    {% include _blocks/image_full_width.html %}
   {% elsif section.template == "image-left" %}
     {% include _blocks/image_left.html %}
   {% endif %}
