@@ -3,7 +3,7 @@ layout: post
 title: St James's Place
 intro: Digital Transformation of Partner Network Sites and Admin Tools
 client: St James's Place
-date: 2022-04-19 22:06:41 +0000
+date: 2022-04-18 22:06:41 +0000
 main-image: "/v1647595389/naaman/web/sjp-image.jpg"
 category: digital
 sections:
