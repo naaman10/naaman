@@ -1,7 +1,12 @@
 <section class="container">
     <div class="row">
         <div class="col-12 col-md-6">
-            <img class="img-fluid animate__animated animate__fadeInLeft imageEnlarge" data-bs-toggle="modal" data-bs-target="#{{ section.image.alt | slugify}}" src="{{ site.cloudinary_url }}/c_scale,w_600{{ section.image.image }}" alt="{{ section.image.alt }}">
+            <figure class="figure">
+                <img class="figure-img img-fluid animate__animated animate__fadeInLeft imageEnlarge" data-bs-toggle="modal" data-bs-target="#{{ section.image.alt | slugify}}" src="{{ site.cloudinary_url }}/c_scale,w_600{{ section.image.image }}" alt="{{ section.image.alt }}">
+                {% if section.image.caption %}
+                <figcaption class="figure-caption">{{ section.image.caption }}</figcaption>
+                {% endif %}
+            </figure>  
         </div>
         <div class="col-12 col-md-6 d-flex align-items-center">
             <p class="animate__animated animate__fadeInRight">{{ section.text }}</p>

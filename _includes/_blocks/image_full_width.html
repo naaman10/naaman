@@ -1,0 +1,17 @@
+<section class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <figure class="figure">
+                <img class="figure-img img-fluid" alt="{{ section.image.alt }}" src="{{ site.cloudinary_url }}{{ section.image.image }}">
+                {% if section.image.caption %}
+                <figcaption class="figure-caption">{{ section.image.caption}}</figcaption>
+                {% endif %}
+            </figure>
+        </div>
+    </div>
+</section>
+
+{% if section.modal %}
+
+
+{% endif %}

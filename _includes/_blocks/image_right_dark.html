@@ -7,7 +7,12 @@
                         <p class="text-white">{{ section.text }}</p>
                     </div>
                     <div class="col-12 col-md-6 text-center">
-                        <img class="img-fluid animate__animated animate__fadeInLeft imageEnlarge" data-bs-toggle="modal" data-bs-target="#{{ section.image.alt | slugify}}" src="{{ site.cloudinary_url }}c_scale,w_300{{ section.image.image }}" alt="{{ section.image.alt }}">
+                        <figure class="figure">
+                            <img class="figure-img img-fluid animate__animated animate__fadeInLeft imageEnlarge" data-bs-toggle="modal" data-bs-target="#{{ section.image.alt | slugify}}" src="{{ site.cloudinary_url }}c_scale,w_300{{ section.image.image }}" alt="{{ section.image.alt }}">
+                            {% if section.image.caption %}
+                            <figcaption class="figure-caption">{{ section.image.caption }}</figcaption>
+                            {% endif %}
+                        </figure>
                     </div>
                 </div>
             </div>

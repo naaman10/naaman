@@ -4,7 +4,12 @@
             <p>{{ section.text }}</p>
         </div>
         <div class="col-12 col-md-6">
-            <img class="img-fluid imageEnlarge" data-bs-toggle="modal" data-bs-target="#{{ section.image.alt | slugify}}" src="{{ site.cloudinary_url }}">
+            <figure class="figure">
+                <img class="figure-img img-fluid imageEnlarge" data-bs-toggle="modal" data-bs-target="#{{ section.image.alt | slugify}}" src="{{ site.cloudinary_url }}">
+                {% if section.image.caption %}
+                <figcaption class="figure-caption">{{ section.image.caption }}</figcaption>
+                {% endif %}
+            </figure>
         </div>
     </div>
 </section>
