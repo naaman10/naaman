@@ -16,6 +16,11 @@ fields:
     config:
       required: false
     label: Alt
+  - name: caption
+    type: text
+    config:
+      required: false
+    label: Caption
   label: Image
 - name: text
   type: textarea
