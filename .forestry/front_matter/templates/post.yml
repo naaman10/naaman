@@ -33,6 +33,7 @@ fields:
   - image-right
   - image-right-dark
   - text
+  - image-full-width
   config:
     min: 
     max: 
