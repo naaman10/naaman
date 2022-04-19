@@ -4,7 +4,7 @@
             <div class="container py-4">
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex align-items-center">
-                        <p class="text-white">{{ section.text }}</p>
+                        <div class="text-white d-inline">{{ section.text | markdownify }}</div>
                     </div>
                     <div class="col-12 col-md-6 text-center">
                         <figure class="figure">

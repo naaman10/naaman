@@ -28,7 +28,7 @@ sections:
     Part of the requirements for migration was that the vast quantity of data that powered the partner websites also needed to be migrated and be available for the client-side Websites Team to manage.
 
     This challenge quickly became more dynamic given the following conditions. Firstly, through Discovery, we knew the client was planning a migration to, and expansion of, Salesforce from which this data could be managed. However, this was at least 5 years away so we needed to create an interim solution that both mitigated the aforementioned challenges and effectively bridged the gap to the Salesforce migration.
-
+    
     Secondly, due to contractual limitations between the client and the incumbent, notice was given to the incumbent which gave us a hard cut-off date.
   image:
     image: "/v1649864549/naaman/web/iPhone_12_Pro_-_Dark_ckpcfw.png"

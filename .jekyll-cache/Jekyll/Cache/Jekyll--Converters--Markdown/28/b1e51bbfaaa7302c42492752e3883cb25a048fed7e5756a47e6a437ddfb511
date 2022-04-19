@@ -1,0 +1,8 @@
+I"8<h2 id="the-challenge">The Challenge</h2>
+
+<p>Part of the requirements for migration was that the vast quantity of data that powered the partner websites also needed to be migrated and be available for the client-side Websites Team to manage.</p>
+
+<p>This challenge quickly became more dynamic given the following conditions. Firstly, through Discovery, we knew the client was planning a migration to, and expansion of, Salesforce from which this data could be managed. However, this was at least 5 years away so we needed to create an interim solution that both mitigated the aforementioned challenges and effectively bridged the gap to the Salesforce migration.</p>
+
+<p>Secondly, due to contractual limitations between the client and the incumbent, notice was given to the incumbent which gave us a hard cut-off date.</p>
+:ET
