@@ -14,12 +14,17 @@ categories:
     alt: Digital Category
   description: Find out about digital projects I have worked on
   link: "#"
-  title: Digital
+  title: Digital Projects
 - image:
     image: "/v1649774111/naaman/web/CNV00033_l1lkul.jpg"
     alt: Personal Projects
-  description: My personal projects
+  description: My personal projects from photography to cycling
   link: "#"
   title: Personal
-
+- image:
+    image: "/v1649774111/naaman/web/CNV00033_l1lkul.jpg"
+    alt: Articles
+  description: Some articles by me about all sorts  
+  link: "#"
+  title: Articles
 ---
