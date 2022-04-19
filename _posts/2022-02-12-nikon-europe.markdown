@@ -7,6 +7,13 @@ date: 2022-02-12T23:06:41.000+00:00
 main-image: "/v1647593691/naaman/web/nikon-zebras.jpg"
 category: digital
 sections:
+- template: text
+  text: |-
+    ## Introduction
+
+    You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+    Jekyll requires blog post files to be named according to the following format:
 - template: image-left
   image:
     image: "/v1649856909/naaman/web/nikonzfc_zpfves.png"
@@ -30,9 +37,12 @@ sections:
     Lorem ipsum dolor sit amet himenaeos. Finibus lobortis himenaeos elementum auctor sollicitudin platea ad et pulvinar dignissim. Consequat ligula finibus dui ornare ridiculus bibendum platea leo ullamcorper mus eleifend. Class taciti tristique purus cursus hendrerit laoreet magnis rutrum. Mus integer non dui arcu at duis conubia quis est lectus. Dapibus augue faucibus sollicitudin viverra pretium praesent nisl interdum. Sem mauris tristique elit pede at.
 
     Augue efficitur tempus praesent nunc feugiat sapien natoque dolor nibh himenaeos. Fames taciti viverra lobortis scelerisque commodo hendrerit vivamus vestibulum quam libero tempus. Mattis si nullam ligula elit quis amet. Sapien sollicitudin erat tristique fames commodo nunc netus id praesent consequat cras. Quam felis ante diam est blandit ex pellentesque montes.
+- template: text
+  text: |-
+    ## Heading
+
+    Lorem ipsum dolor sit amet quisque congue conubia velit taciti praesent nunc. Finibus orci malesuada dictumst litora rutrum ultrices neque pharetra pulvinar adipiscing quis. Duis purus facilisis a hac ad tempor erat dui. Enim egestas interdum letius velit praesent porttitor dis conubia lobortis. Amet nec iaculis malesuada ultricies placerat est lacinia.
+
+    Tortor vel duis montes ligula conubia commodo letius habitasse. Vestibulum lorem congue a ornare integer sodales. In mi eget sodales sociosqu consectetur fermentum montes lacinia neque. Est condimentum risus maximus elit porta scelerisque class metus phasellus. Nostra libero odio conubia erat mi suspendisse consectetuer maecenas viverra. Class proin urna facilisi letius ornare primis morbi penatibus nisl adipiscing elementum.
 
 ---
-## Introduction
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
