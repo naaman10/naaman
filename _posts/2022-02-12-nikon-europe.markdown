@@ -35,7 +35,7 @@ sections:
   image:
     image: "/v1650365164/naaman/web/BIG-2-1.jpg"
     alt: Image Alt Text
-    caption: This is a test image full width
+    caption: 
   enlarge: false
 - template: image-right-dark
   image:
@@ -53,5 +53,5 @@ sections:
     Lorem ipsum dolor sit amet quisque congue conubia velit taciti praesent nunc. Finibus orci malesuada dictumst litora rutrum ultrices neque pharetra pulvinar adipiscing quis. Duis purus facilisis a hac ad tempor erat dui. Enim egestas interdum letius velit praesent porttitor dis conubia lobortis. Amet nec iaculis malesuada ultricies placerat est lacinia.
 
     Tortor vel duis montes ligula conubia commodo letius habitasse. Vestibulum lorem congue a ornare integer sodales. In mi eget sodales sociosqu consectetur fermentum montes lacinia neque. Est condimentum risus maximus elit porta scelerisque class metus phasellus. Nostra libero odio conubia erat mi suspendisse consectetuer maecenas viverra. Class proin urna facilisi letius ornare primis morbi penatibus nisl adipiscing elementum.
-
+  background: Light
 ---

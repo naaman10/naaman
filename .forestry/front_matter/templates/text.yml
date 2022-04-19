@@ -11,3 +11,17 @@ fields:
     schema:
       format: markdown
   label: Text
+- name: background
+  type: select
+  default: Light
+  config:
+    required: false
+    options:
+    - Dark
+    - Light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Background
