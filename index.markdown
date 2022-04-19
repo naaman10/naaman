@@ -12,6 +12,6 @@ banner:
   image_alt: St. James's Place Wealth Management
   image_gravity: g_auto
   title: St. James's Place Wealth Management
-  url: "#"
-
+  url: "/digital/2022/04/18/st-james-place.html"
+  
 ---
