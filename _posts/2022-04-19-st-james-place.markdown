@@ -45,5 +45,11 @@ sections:
     The solution I created was a secure suite of admin functions which allowed the client to manage partner data, site data and publishing capabilities. The suite was to complement the CMS via custom API’s so that the eventual migration to Salesforce could be as smooth as possible. I needed to find and utilise an ‘Out Of The Box’ service to be able to improve our time to live but also aligned with the existing skills within the project team so that those ‘Out Of The Box’ services could be easily integrated and extended without a steep learning curve or introducing a skills gap. For this, I worked with the development team to select <a href="https://marmelab.com/react-admin/Readme.html" target="_blank">REACT Admin</a>.
 
     The next stage for myself was to design and define a solution that allowed us to firstly migrate the existing data and, secondly, allowed the client to manage data while maintaining regulatory compliance. Additionally, I needed to adjust our workflow and processes to account for this additional workload alongside the definition and build of the CMS.
+- template: text
+  background: Light
+  text: |-
+    ## The Result
+
+    A data management suite that allowed the client to quickly and efficiently manage partner and regulatory data, site themes and site publications. This was part of the implementation which won the 2021 UK Dev Awards Best Deployment of a CMS.
 
 ---
