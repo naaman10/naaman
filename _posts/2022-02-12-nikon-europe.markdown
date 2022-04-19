@@ -18,6 +18,7 @@ sections:
   image:
     image: "/v1649856909/naaman/web/nikonzfc_zpfves.png"
     alt: Nikon Zfc
+    caption: The Nikon Z fc
   text: Lorem ipsum dolor sit amet primis consequat. Etiam ex vivamus condimentum
     inceptos elit. Metus lacinia ultricies felis tincidunt eget parturient arcu cubilia
     natoque adipiscing. Proin nullam interdum venenatis libero sed vitae elementum.
@@ -33,6 +34,7 @@ sections:
   image:
     image: "/v1649864549/naaman/web/iPhone_12_Pro_-_Dark_ckpcfw.png"
     alt: Iphone screenshot
+    caption: The New Nikon Homepage
   text: |-
     Lorem ipsum dolor sit amet himenaeos. Finibus lobortis himenaeos elementum auctor sollicitudin platea ad et pulvinar dignissim. Consequat ligula finibus dui ornare ridiculus bibendum platea leo ullamcorper mus eleifend. Class taciti tristique purus cursus hendrerit laoreet magnis rutrum. Mus integer non dui arcu at duis conubia quis est lectus. Dapibus augue faucibus sollicitudin viverra pretium praesent nisl interdum. Sem mauris tristique elit pede at.
 
