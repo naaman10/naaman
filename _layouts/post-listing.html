@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<section class="container">
+    <div class="row">
+      <div class="col-12 col-md-12">
+        {% include pagetitle.html %}
+      </div>
+    </div>
+</section>
+
+<section class="container-fluid section-black">
+    <div class="row">
+        <div class="col-12 col-md-8 offset-md-2">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            {% assign category = page.category %}
+            {% for post in site.categories[category] %}
+            <div class="col">
+                <a href="{{ site.github.url }}{{ post.url }}">
+              <div class="card p-0 img-zoom animate__animated animate__fadeInUp">
+                <img src="{{ site.cloudinary_url }}c_fill,g_center,h_197,w_296{{ post.main-image }}" class="card-img-top " alt="{{ post.title }}">
+                <div class="card-body">
+                  <h5 class="card-title">{{ post.title }} | {{ category }}</h5>
+                  <p class="card-text">{{ post.description | markdownify }}</p>
+
+                </div>
+                <div class="card-footer text-end">
+                    <i class="fa fa-solid fa-right-long"></i>
+                  </div>
+              </div>
+            </a>
+            </div>
+            {% endfor %}
+            
+          </div>
+          </div>
+    </div>
+</section>

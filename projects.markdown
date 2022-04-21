@@ -13,7 +13,7 @@ categories:
     image: "/v1649774001/naaman/web/categories-digital_rernyt.webp"
     alt: Digital Category
   description: Find out about digital projects I have worked on
-  link: "#"
+  link: "/projects/digital"
   title: Digital Projects
 - image:
     image: "/v1649774111/naaman/web/CNV00033_l1lkul.jpg"
