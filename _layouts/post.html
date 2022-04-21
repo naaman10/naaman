@@ -23,7 +23,7 @@ layout: default
                     </div>
                     <div class="col-12 col-sm-6 col-lg-auto">
                         <ul class="list-group list-group-gap borderless">
-                            <li class="list-group-item borderless"><span class="fw-bold mr-8">Client:</span> {{ page.client }}</li>
+                            {% if page.client > "" %}<li class="list-group-item borderless"><span class="fw-bold mr-8">Client:</span> {{ page.client }}</li>{% endif %}
                             <li class="list-group-item borderless">
                                 <span class="fw-bold">Share:</span> <button class="btn" id="copyUrl" type="button"><i class="fa-solid fa-link"></i></button><a class="btn " href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                             </li>

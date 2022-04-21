@@ -19,7 +19,7 @@ categories:
     image: "/v1649774111/naaman/web/CNV00033_l1lkul.jpg"
     alt: Personal Projects
   description: My personal projects from photography to cycling
-  link: "#"
+  link: "/projects/personal"
   title: Personal
 - image:
     image: "/v1649774111/naaman/web/CNV00033_l1lkul.jpg"
