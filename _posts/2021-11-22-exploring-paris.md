@@ -23,5 +23,8 @@ sections:
     alt: Notre Dam
   - image: "/v1650632941/naaman/web/CNV000018_lncvkt.jpg"
     alt: Notre Dam 2
+  - image: "/v1650635351/naaman/web/CNV000020_p8arzn.jpg"
+    alt: Streets of Paris
+  title: ''
 
 ---
