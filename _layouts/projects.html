@@ -15,7 +15,7 @@ layout: default
         <div class="row row-cols-1 row-cols-md-3 g-4">
             {% for category in page.categories %}
             <div class="col">
-                <a href="{{ category.link }}">
+                <a href="{{ site.github.url }}{{ category.link }}">
               <div class="card p-0 img-zoom animate__animated animate__fadeInUp">
                 <img src="{{ site.cloudinary_url }}{{ category.image.image }}" class="card-img-top " alt="{{ category.image.alt }}">
                 <div class="card-body">
