@@ -1,0 +1,33 @@
+{% if section.background == "Dark" %}
+<section class="container-fluid py-4 section-black">
+    <section class="container">
+        {% else %}
+        <section class="container py-4 ">
+            {% endif %}
+            <div class="row">
+                <div class="col-12">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide">Slide 1</div>
+                          <div class="swiper-slide">Slide 2</div>
+                          <div class="swiper-slide">Slide 3</div>
+                          ...
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                      
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                      
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                      </div>
+                </div>
+            </div>
+            {% if section.background == "Dark" %}
+        </section>
+        {% endif %}
+    </section>
