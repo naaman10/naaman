@@ -65,4 +65,10 @@ a { text-decoration: none; }
 
 .imageEnlarge:hover { cursor: url("https://res.cloudinary.com/njh101010/image/upload/c_scale,w_41/v1649927689/naaman/zoom.png"), auto; }
 
+.swiper-slide { text-align: center; font-size: 18px; width: auto !important; background: #fff; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
+
+.swiper-slide.swiper-slide-active, .swiper-slide.swiper-slide-active { width: auto; }
+
+.swiper-slide img { display: block; object-fit: cover; }
+
 /*# sourceMappingURL=styles.css.map */

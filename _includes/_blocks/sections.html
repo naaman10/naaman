@@ -9,5 +9,7 @@
     {% include _blocks/image_full_width.html %}
   {% elsif section.template == "image-left" %}
     {% include _blocks/image_left.html %}
+  {% elsif section.template == "image-carousel" %}
+    {% include _blocks/image-carousel.html %}
   {% endif %}
 {%endfor%}

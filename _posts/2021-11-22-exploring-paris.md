@@ -18,7 +18,6 @@ sections:
     consequat erat.
 - template: image-carousel
   background: Light
-  title: Gallery
   images:
   - image: "/v1650553227/naaman/web/CNV000021_Edited_qpqsue.jpg"
     alt: Notre Dam

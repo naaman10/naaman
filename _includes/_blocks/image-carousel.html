@@ -5,25 +5,17 @@
         <section class="container py-4 ">
             {% endif %}
             <div class="row">
+                {% if section.title %}<h2>{{ section.title }}</h2>{% endif %}
                 <div class="col-12">
-                    <div class="swiper">
+                    <div class="swiper carouselSwiper">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                           <!-- Slides -->
-                          <div class="swiper-slide">Slide 1</div>
-                          <div class="swiper-slide">Slide 2</div>
-                          <div class="swiper-slide">Slide 3</div>
-                          ...
+                          {% for image in section.images %}
+                          <div class="swiper-slide"><img src="{{ site.cloudinary_url }}c_scale,h_400{{ image.image }}" class="img-fluid"></div>
+                          {% endfor %}
+                          
                         </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-                      
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                      
-                        <!-- If we need scrollbar -->
-                        <div class="swiper-scrollbar"></div>
                       </div>
                 </div>
             </div>

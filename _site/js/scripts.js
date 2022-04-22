@@ -14,3 +14,10 @@ document.getElementById("copyUrl").addEventListener("click", function(event){
     var toast = new bootstrap.Toast(iiii)
     toast.show()
 });
+const swiper = new Swiper('.carouselSwiper', {
+  speed: 400,
+  spaceBetween: 40,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  centeredSlides: true
+});
