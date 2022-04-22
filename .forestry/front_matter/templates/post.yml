@@ -35,6 +35,7 @@ fields:
   - image-right-dark
   - text
   - image-full-width
+  - image-carousel
   config:
     min: 
     max: 
