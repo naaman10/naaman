@@ -9,13 +9,23 @@ category: personal
 sections:
 - template: text
   background: Light
-  text: Lorem ipsum dolor sit amet taciti dui platea cubilia iaculis interdum mattis.
-    Venenatis sem metus torquent eleifend montes maecenas consectetur. Felis luctus
-    suspendisse mattis libero in. Vulputate nulla libero fringilla malesuada senectus
-    tincidunt platea. Lorem turpis accumsan potenti morbi hac. Dis sodales imperdiet
-    lorem class adipiscing sem litora bibendum ut aptent. Placerat urna lacus nec
-    facilisi sed. Laoreet lobortis adipiscing leo urna libero finibus ante eleifend
-    consequat erat.
+  text: "For as long as I can remember Paris has been one of the cities consistently
+    at the top of my bucket list. It's the city of love, steeped in history, it's
+    world-renowned for food and drink, fashion and culture. Why not? \n\nMid 2021
+    came and, after over a year or so of lockdown and restrictions, frustration set
+    in. I'm not usually fussy about not being able to go on holidays etc. as usually
+    I at least have the option to do day trips or travel with work. When that option
+    is taken away, that frustration grows so, when the opportunity arose to take my
+    partner away for her birthday, I took it."
+- template: image-left
+  name: image_left
+  image:
+    image: "/v1650789161/naaman/web/CNV000035_Edited.jpg"
+    alt: Eiffel Tower
+    size: '300'
+    caption: ''
+  text: 'Our hotel was a 5-minute walk from the Eiffel Tower, so naturally, it''s
+    the first place we headed to after checking in. '
 - template: image-carousel
   background: Light
   images:
