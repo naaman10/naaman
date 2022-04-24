@@ -1,3 +1,7 @@
+import Swiper from 'swiper';
+// import Swiper styles
+import 'swiper/css';
+
 var myCarousel = document.querySelector('#homeBanner')
 var carousel = new bootstrap.Carousel(myCarousel)
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
