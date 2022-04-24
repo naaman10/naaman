@@ -24,7 +24,8 @@ sections:
     alt: Eiffel Tower
     size: '300'
     caption: ''
-  text: ''
+  text: 'Our hotel was a 5-minute walk from the Eiffel Tower, so naturally, it''s
+    the first place we headed to after checking in. '
 - template: image-carousel
   background: Light
   images:
