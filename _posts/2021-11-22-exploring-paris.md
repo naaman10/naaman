@@ -25,7 +25,10 @@ sections:
     size: '300'
     caption: ''
   text: 'Our hotel was a 5-minute walk from the Eiffel Tower, so naturally, it''s
-    the first place we headed to after checking in. '
+    the first place we headed to after checking in. I was taken aback at the size
+    and spectacle of the tower, it''s something that you just don''t have the perspective
+    of until stood in front of it. So my first challenge was to try to capture the
+    volume and scale of the tower. '
 - template: image-carousel
   background: Light
   images:
