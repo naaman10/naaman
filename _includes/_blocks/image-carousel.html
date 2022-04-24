@@ -1,25 +1,13 @@
-{% if section.background == "Dark" %}
-<section class="container-fluid py-4 section-black">
-    <section class="container">
-        {% else %}
-        <section class="container py-4 ">
-            {% endif %}
-            <div class="row">
-                {% if section.title %}<h2>{{ section.title }}</h2>{% endif %}
-                <div class="col-12">
-                    <div class="swiper carouselSwiper">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                          <!-- Slides -->
-                          {% for image in section.images %}
-                          <div class="swiper-slide"><img src="{{ site.cloudinary_url }}c_scale,h_400{{ image.image }}" class="img-fluid"></div>
-                          {% endfor %}
-                          
-                        </div>
-                      </div>
-                </div>
-            </div>
-            {% if section.background == "Dark" %}
-        </section>
-        {% endif %}
-    </section>
+<div class="w-100 my-3 h-auto">
+    {% if section.title %}<h2>{{ section.title }}</h2>{% endif %}
+    <div class="swiper carouselSwiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            {% for image in section.images %}
+            <div class="swiper-slide"><img src="{{ site.cloudinary_url }}c_scale,h_400{{ image.image }}"
+                    class="img-fluid"></div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

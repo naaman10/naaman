@@ -128,11 +128,14 @@ a {
     cursor: url('https://res.cloudinary.com/njh101010/image/upload/c_scale,w_41/v1649927689/naaman/zoom.png'), auto;	
   }
 }
-
+.swiper-wrapper {
+  height: auto!important;
+}
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   width: auto!important;
+  height: auto!important;
   background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
