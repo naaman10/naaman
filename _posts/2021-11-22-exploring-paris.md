@@ -22,13 +22,20 @@ sections:
   image:
     image: "/v1650789161/naaman/web/CNV000035_Edited.jpg"
     alt: Eiffel Tower
-    size: 'full'
+    size: full
     caption: ''
   text: 'Our hotel was a 5-minute walk from the Eiffel Tower, so naturally, it''s
     the first place we headed to after checking in. I was taken aback at the size
     and spectacle of the tower, it''s something that you just don''t have the perspective
     of until stood in front of it. So my first challenge was to try to capture the
     volume and scale of the tower. '
+- template: image-right-dark
+  image:
+    image: "/v1650797004/naaman/web/493C0345-3035-45D1-BCA6-7A98BC527015_euctuy.jpg"
+    alt: Eiffel Tower Upclose
+    caption: ''
+  text: 'Trying to understand the scale of just the tower is difficult, no matter
+    what perspective you decide to take a shot from its scale seems to get lost. '
 - template: image-carousel
   background: Light
   images:
