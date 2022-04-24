@@ -22,7 +22,7 @@ sections:
   image:
     image: "/v1650789161/naaman/web/CNV000035_Edited.jpg"
     alt: Eiffel Tower
-    size: '300'
+    size: 'full'
     caption: ''
   text: 'Our hotel was a 5-minute walk from the Eiffel Tower, so naturally, it''s
     the first place we headed to after checking in. '
