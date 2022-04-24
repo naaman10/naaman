@@ -17,6 +17,7 @@ document.getElementById("copyUrl").addEventListener("click", function(event){
 const swiper = new Swiper('.carouselSwiper', {
   speed: 400,
   spaceBetween: 40,
+  allowTouchMove: true,
   centeredSlides: true,
   slidesPerView: "auto",
   centeredSlides: true
