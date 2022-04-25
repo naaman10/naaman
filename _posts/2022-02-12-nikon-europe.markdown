@@ -21,11 +21,12 @@ sections:
     alt: Nikon Zfc
     caption: The Nikon Z fc
     size: ''
-  text: Lorem ipsum dolor sit amet primis consequat. Etiam ex vivamus condimentum
-    inceptos elit. Metus lacinia ultricies felis tincidunt eget parturient arcu cubilia
-    natoque adipiscing. Proin nullam interdum venenatis libero sed vitae elementum.
-    Lobortis ornare in facilisi ut dui ac dictum. Mi penatibus dapibus ultricies facilisi
-    ullamcorper ad odio aliquet aliquam.
+  text: "Over the last 2 years (2020 to 2022) I have been engaged with the European
+    division on Nikon (Nikon B.V.) on an extensive Digital Transformation project.
+    As an avid photography enthusiast this was such a great opportunity to work on
+    a product from an industry and brand I love. \n\nLike most Digital Transformation
+    projects, the scope with Nikon B.V. is huge, from E-Commerce to Automated Marketing
+    and everything in-between. There is no aspect of the B.V. ecosystem I didn't touch."
   name: ''
 - template: text
   text: |-
