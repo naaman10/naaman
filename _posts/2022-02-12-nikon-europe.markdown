@@ -32,20 +32,25 @@ sections:
   text: "## Project Background\n\nMy first interaction with Nikon B.V. started with
     running a strategy phase rather than a typical Discovery Phase. The idea being
     that Nikon knew they needed change but needed our help in first understanding
-    what's gone wrong and needs to be done before we can look at any form of solution.
-    \n\nTo set the scene even more, Nikon's market position over the previous 20 years
-    had been slipping. During the early 2000's, Nikon were flying high dominating
-    the market place with enthusiast and pro ranges and also with the compact cameras
+    what's gone wrong and needs to be done before we can look at any form of solution.\n\nTo
+    set the scene even more, Nikon's market position over the previous 20 years had
+    been slipping. During the early 2000's, Nikon were flying high dominating the
+    market place with enthusiast and pro ranges and also with the compact cameras
     ranges perfect for the general consumer. So profit was high and with it was the
     autonomy of each market within Europe, markets could effectively do what they
-    wanted, creating marketing sites and campaigns at will. \n\nThen, along came the
+    wanted, creating marketing sites and campaigns at will.\n\nThen, along came the
     iPhone and later other smartphones, and with every iteration, the built in cameras
     on smartphones, companion software and the rise and easily integrated social media
-    platform, the compact camera slowly died out. \n\nTo add to this, Nikon were undoubtedly
-    slow to the market with the release of new camera tech Mirrorless. Sony broke
+    platform, the compact camera slowly died out.\n\nTo add to this, Nikon were undoubtedly
+    slow to the market with the release of new camera tech, Mirrorless. Sony broke
     the new market first, followed by Canon but Nikon didn't make it to market with
     Mirrorless for a few years after, by which point they were playing catch-up and
-    have arguably being doing so since."
+    have arguably being doing so since.\n\nAn obvious problem therefore began to grow,
+    with the loss a key segment in compact cameras and their lateness to the Mirrorless
+    market, Nikon's revenue and market share started to diminish yet their tech stack
+    was unable to change with it. The result of markets been able to create and spend
+    what they want over the last 20 years had left Nikon B.V.'s tech stack fragmented,
+    decentralised and ultimately haemorrhaging money. \n\nThis is were I come in..."
   background: ''
 - template: image-full-width
   background: Light
