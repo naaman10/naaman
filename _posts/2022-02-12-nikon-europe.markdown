@@ -51,7 +51,7 @@ sections:
     was unable to change with it. The result of markets been able to create and spend
     what they want over the last 20 years had left Nikon B.V.'s tech stack fragmented,
     decentralised and ultimately haemorrhaging money. \n\nThis is were I come in..."
-  background: ''
+  background: Light
 - template: image-full-width
   background: Light
   image:
