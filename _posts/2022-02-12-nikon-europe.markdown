@@ -14,11 +14,13 @@ sections:
     You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
     Jekyll requires blog post files to be named according to the following format:
+  background: ''
 - template: image-left
   image:
     image: "/v1649856909/naaman/web/nikonzfc_zpfves.png"
     alt: Nikon Zfc
     caption: The Nikon Z fc
+    size: ''
   text: Lorem ipsum dolor sit amet primis consequat. Etiam ex vivamus condimentum
     inceptos elit. Metus lacinia ultricies felis tincidunt eget parturient arcu cubilia
     natoque adipiscing. Proin nullam interdum venenatis libero sed vitae elementum.
@@ -30,16 +32,17 @@ sections:
     Lorem ipsum dolor sit amet maecenas suscipit feugiat litora fusce donec laoreet. Ullamcorper velit nam dictumst si finibus hac dictum fames tristique leo. Mattis duis fusce netus facilisi libero nisi consequat. Gravida massa facilisi libero inceptos vulputate. Dictum habitant tempus senectus maximus eleifend condimentum. Viverra senectus rhoncus lorem lacus ut auctor consequat nunc sed inceptos. Tortor porttitor turpis amet consectetuer lorem ad elementum est. Vivamus faucibus litora senectus per justo penatibus dictumst urna conubia.
 
     Velit imperdiet aptent laoreet ac aenean tempus nec convallis sem. Ridiculus sem mus magnis ex netus nascetur id volutpat. Ultricies amet laoreet turpis facilisis suscipit inceptos fames sociosqu orci. Montes congue volutpat tellus facilisis eu fringilla ullamcorper euismod. Phasellus non odio porttitor natoque lacus elit massa faucibus. Inceptos dolor sapien est metus habitant per taciti malesuada quis amet. Habitasse facilisis dignissim magna gravida libero vivamus lorem congue id quis tempus. Nec elementum pellentesque vehicula eleifend semper at.
+  background: ''
 - template: image-full-width
   background: Light
   image:
     image: "/v1650365164/naaman/web/BIG-2-1.jpg"
     alt: Image Alt Text
-    caption: 
+    caption: ''
   enlarge: false
 - template: image-right-dark
   image:
-    image: "/v1649864549/naaman/web/iPhone_12_Pro_-_Dark_ckpcfw.png"
+    image: "/v1650874273/naaman/web/Group_1178_sgrabr.png"
     alt: Iphone screenshot
     caption: The New Nikon Homepage
   text: |-
@@ -54,4 +57,5 @@ sections:
 
     Tortor vel duis montes ligula conubia commodo letius habitasse. Vestibulum lorem congue a ornare integer sodales. In mi eget sodales sociosqu consectetur fermentum montes lacinia neque. Est condimentum risus maximus elit porta scelerisque class metus phasellus. Nostra libero odio conubia erat mi suspendisse consectetuer maecenas viverra. Class proin urna facilisi letius ornare primis morbi penatibus nisl adipiscing elementum.
   background: Light
+
 ---
