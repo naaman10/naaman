@@ -29,10 +29,23 @@ sections:
     and everything in-between. There is no aspect of the B.V. ecosystem I didn't touch."
   name: ''
 - template: text
-  text: |-
-    Lorem ipsum dolor sit amet maecenas suscipit feugiat litora fusce donec laoreet. Ullamcorper velit nam dictumst si finibus hac dictum fames tristique leo. Mattis duis fusce netus facilisi libero nisi consequat. Gravida massa facilisi libero inceptos vulputate. Dictum habitant tempus senectus maximus eleifend condimentum. Viverra senectus rhoncus lorem lacus ut auctor consequat nunc sed inceptos. Tortor porttitor turpis amet consectetuer lorem ad elementum est. Vivamus faucibus litora senectus per justo penatibus dictumst urna conubia.
-
-    Velit imperdiet aptent laoreet ac aenean tempus nec convallis sem. Ridiculus sem mus magnis ex netus nascetur id volutpat. Ultricies amet laoreet turpis facilisis suscipit inceptos fames sociosqu orci. Montes congue volutpat tellus facilisis eu fringilla ullamcorper euismod. Phasellus non odio porttitor natoque lacus elit massa faucibus. Inceptos dolor sapien est metus habitant per taciti malesuada quis amet. Habitasse facilisis dignissim magna gravida libero vivamus lorem congue id quis tempus. Nec elementum pellentesque vehicula eleifend semper at.
+  text: "## Project Background\n\nMy first interaction with Nikon B.V. started with
+    running a strategy phase rather than a typical Discovery Phase. The idea being
+    that Nikon knew they needed change but needed our help in first understanding
+    what's gone wrong and needs to be done before we can look at any form of solution.
+    \n\nTo set the scene even more, Nikon's market position over the previous 20 years
+    had been slipping. During the early 2000's, Nikon were flying high dominating
+    the market place with enthusiast and pro ranges and also with the compact cameras
+    ranges perfect for the general consumer. So profit was high and with it was the
+    autonomy of each market within Europe, markets could effectively do what they
+    wanted, creating marketing sites and campaigns at will. \n\nThen, along came the
+    iPhone and later other smartphones, and with every iteration, the built in cameras
+    on smartphones, companion software and the rise and easily integrated social media
+    platform, the compact camera slowly died out. \n\nTo add to this, Nikon were undoubtedly
+    slow to the market with the release of new camera tech Mirrorless. Sony broke
+    the new market first, followed by Canon but Nikon didn't make it to market with
+    Mirrorless for a few years after, by which point they were playing catch-up and
+    have arguably being doing so since."
   background: ''
 - template: image-full-width
   background: Light
