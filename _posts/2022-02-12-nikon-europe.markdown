@@ -59,6 +59,10 @@ sections:
     alt: Image Alt Text
     caption: ''
   enlarge: false
+- template: text
+  text: "## Strategy Phase\n\nMy role during the strategy phase was to work with Nikon
+    to understand "
+  background: Light
 - template: image-right-dark
   image:
     image: "/v1650874273/naaman/web/Group_1178_sgrabr.png"
@@ -68,13 +72,5 @@ sections:
     Lorem ipsum dolor sit amet himenaeos. Finibus lobortis himenaeos elementum auctor sollicitudin platea ad et pulvinar dignissim. Consequat ligula finibus dui ornare ridiculus bibendum platea leo ullamcorper mus eleifend. Class taciti tristique purus cursus hendrerit laoreet magnis rutrum. Mus integer non dui arcu at duis conubia quis est lectus. Dapibus augue faucibus sollicitudin viverra pretium praesent nisl interdum. Sem mauris tristique elit pede at.
 
     Augue efficitur tempus praesent nunc feugiat sapien natoque dolor nibh himenaeos. Fames taciti viverra lobortis scelerisque commodo hendrerit vivamus vestibulum quam libero tempus. Mattis si nullam ligula elit quis amet. Sapien sollicitudin erat tristique fames commodo nunc netus id praesent consequat cras. Quam felis ante diam est blandit ex pellentesque montes.
-- template: text
-  text: |-
-    ## Heading
-
-    Lorem ipsum dolor sit amet quisque congue conubia velit taciti praesent nunc. Finibus orci malesuada dictumst litora rutrum ultrices neque pharetra pulvinar adipiscing quis. Duis purus facilisis a hac ad tempor erat dui. Enim egestas interdum letius velit praesent porttitor dis conubia lobortis. Amet nec iaculis malesuada ultricies placerat est lacinia.
-
-    Tortor vel duis montes ligula conubia commodo letius habitasse. Vestibulum lorem congue a ornare integer sodales. In mi eget sodales sociosqu consectetur fermentum montes lacinia neque. Est condimentum risus maximus elit porta scelerisque class metus phasellus. Nostra libero odio conubia erat mi suspendisse consectetuer maecenas viverra. Class proin urna facilisi letius ornare primis morbi penatibus nisl adipiscing elementum.
-  background: Light
 
 ---
