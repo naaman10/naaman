@@ -61,7 +61,18 @@ sections:
   enlarge: false
 - template: text
   text: "## Strategy Phase\n\nMy role during the strategy phase was to work with Nikon
-    to understand "
+    to understand exactly what their current state of play is, to really get to grips
+    with their landscape. \n\nTo start the phase, I decided to run a series of workshops
+    for the client to take us through some of their main digital propositions where
+    we could discuss pain points and frustrations and delve a bit deeper in to the
+    history of why those pain point exist. The objective is to essential reverse the
+    requirements gathering process so we understand current state rather than future
+    state. As we progressed through the workshops I was able to begin to understand
+    certain themes which we could begin to build a strategy around, which leads us
+    to the next step.\n\nThat being, mapping what we have discovered so far back to
+    what I would now call Strategical Pillars. \n\nThese Strategical Pillars became:\n\n*
+    Cost Saving\n* Analytics & Data Quality \n* User Experience\n* Centralisation
+    \n* Platform Security & GDPR\n* Revenue Opportunities  "
   background: Light
 - template: image-right-dark
   image:
