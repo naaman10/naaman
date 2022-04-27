@@ -52,13 +52,6 @@ sections:
     what they want over the last 20 years had left Nikon B.V.'s tech stack fragmented,
     decentralised and ultimately haemorrhaging money. \n\nThis is were I come in..."
   background: Light
-- template: image-full-width
-  background: Light
-  image:
-    image: "/v1650365164/naaman/web/BIG-2-1.jpg"
-    alt: Image Alt Text
-    caption: ''
-  enlarge: false
 - template: text
   text: "## Strategy Phase\n\nMy role during the strategy phase was to work with Nikon
     to understand exactly what their current state of play is, to really get to grips
@@ -74,6 +67,13 @@ sections:
     Cost Saving\n* Analytics & Data Quality \n* User Experience\n* Centralisation
     \n* Platform Security & GDPR\n* Revenue Opportunities  "
   background: Light
+- template: image-full-width
+  background: Light
+  image:
+    image: "/v1651052315/naaman/web/Screenshot_2022-04-27_at_10.38.22_xdhj9l.png"
+    alt: Image Alt Text
+    caption: ''
+  enlarge: false
 - template: image-right-dark
   image:
     image: "/v1650874273/naaman/web/Group_1178_sgrabr.png"
