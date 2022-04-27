@@ -71,6 +71,16 @@ sections:
     * Platform Security & GDPR
     * Revenue Opportunities
   background: Light
+- template: image-right
+  name: image_right
+  image:
+    image: "/v1651052315/naaman/web/Screenshot_2022-04-27_at_10.38.22_xdhj9l.png"
+    alt: Strategy Mapping
+    caption: ''
+  text: "This session allowed us to do a few things, firstly, we were able to validate
+    with the client the Strategical Pillars to make sure we're all aligned on the
+    particular areas of focus.\n\nSecondly, we're able to map individual pain points
+    and requirements to pillars to give context to certain requirement.  "
 - template: image-full-width
   background: Light
   image:
