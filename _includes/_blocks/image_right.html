@@ -1,13 +1,13 @@
 <section class="container">
     <div class="row">
-        <div class="col-12 col-md-7 d-flex align-items-center animate__animated animate__fadeInRight">
+        <div class="col-12 col-md-7 d-flex align-items-center animate__animated animate__fadeInLeft">
             <div class="d-inline">
             {{ section.text | markdownify }}
             </div>
         </div>
         <div class="col-12 col-md-5 text-center">
             <figure class="figure">
-                <img class="figure-img img-fluid animate__animated animate__fadeInLeft imageEnlarge" data-bs-toggle="modal" data-bs-target="#{{ section.image.alt | slugify}}" src="{{ site.cloudinary_url }}/c_scale{% case section.image.size %}{% when "Full" %}{% when "Mobile" %},w_300{% when "600" %},w_600{% when "300" %},w_300{% endcase %}{{ section.image.image }}" alt="{{ section.image.alt }}">
+                <img class="figure-img img-fluid animate__animated animate__fadeInRight imageEnlarge" data-bs-toggle="modal" data-bs-target="#{{ section.image.alt | slugify}}" src="{{ site.cloudinary_url }}/c_scale{% case section.image.size %}{% when "Full" %}{% when "Mobile" %},w_300{% when "600" %},w_600{% when "300" %},w_300{% endcase %}{{ section.image.image }}" alt="{{ section.image.alt }}">
                 {% if section.image.caption %}
                 <figcaption class="figure-caption">{{ section.image.caption }}</figcaption>
                 {% endif %}
