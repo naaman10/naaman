@@ -70,12 +70,11 @@ sections:
     Secondly, we’re able to map individual pain points and requirements to pillars to give context to certain requirements.
 
     Finally, it allows us to get to grips with the objectives for the following projects and to be able to begin to understand the scope of work ahead.
-- template: image-right-dark
-  image:
-    image: "/v1650874273/naaman/web/Group_1178_sgrabr.png"
-    alt: Iphone screenshot
-    caption: The New Nikon Homepage
+- template: text
+  background: Dark
   text: |-
+    ## Discovery Phase
+
     Lorem ipsum dolor sit amet himenaeos. Finibus lobortis himenaeos elementum auctor sollicitudin platea ad et pulvinar dignissim. Consequat ligula finibus dui ornare ridiculus bibendum platea leo ullamcorper mus eleifend. Class taciti tristique purus cursus hendrerit laoreet magnis rutrum. Mus integer non dui arcu at duis conubia quis est lectus. Dapibus augue faucibus sollicitudin viverra pretium praesent nisl interdum. Sem mauris tristique elit pede at.
 
     Augue efficitur tempus praesent nunc feugiat sapien natoque dolor nibh himenaeos. Fames taciti viverra lobortis scelerisque commodo hendrerit vivamus vestibulum quam libero tempus. Mattis si nullam ligula elit quis amet. Sapien sollicitudin erat tristique fames commodo nunc netus id praesent consequat cras. Quam felis ante diam est blandit ex pellentesque montes.
