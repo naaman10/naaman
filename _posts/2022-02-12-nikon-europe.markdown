@@ -80,7 +80,9 @@ sections:
   text: "This session allowed us to do a few things, firstly, we were able to validate
     with the client the Strategical Pillars to make sure we're all aligned on the
     particular areas of focus.\n\nSecondly, we're able to map individual pain points
-    and requirements to pillars to give context to certain requirement.  "
+    and requirements to pillars to give context to certain requirement. \n\nFinally,
+    it allows us to really get to grips with the objectives for the following projects
+    and to be able to begin to understand the scope of work ahead. "
 - template: image-full-width
   background: Light
   image:
