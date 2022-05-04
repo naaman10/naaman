@@ -34,7 +34,7 @@ sections:
     image: "/v1650797004/naaman/web/493C0345-3035-45D1-BCA6-7A98BC527015_euctuy.jpg"
     alt: Eiffel Tower Upclose
     caption: ''
-    size: full
+    size: Full
   text: 'Trying to understand the scale of just the tower is difficult, no matter
     what perspective you decide to take a shot from its scale seems to get lost. '
 - template: image-carousel

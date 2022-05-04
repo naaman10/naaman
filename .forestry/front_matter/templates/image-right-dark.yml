@@ -27,16 +27,15 @@ fields:
     config:
       required: false
       options:
-        - Full
-        - Mobile
-        - '600'
-        - '300'
+      - Full
+      - Mobile
+      - '600'
+      - '300'
     source:
       type: simple
       section: 
       file: 
       path: 
-  label: Size
   label: Image
 - name: text
   type: textarea
