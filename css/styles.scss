@@ -20,8 +20,8 @@ a {
 .page-intro {
   min-height: 50vh;
 }
-.section-dark {
-  background-color: #0E0E0E;
+.section-dark, .bg-black {
+  background-color: #0E0E0E!important;
   color: #ffffff;
 }
 .offcanvas {

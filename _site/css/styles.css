@@ -9,7 +9,7 @@ a { text-decoration: none; }
 
 .page-intro { min-height: 50vh; }
 
-.section-dark { background-color: #0E0E0E; color: #ffffff; }
+.section-dark, .bg-black { background-color: #0E0E0E !important; color: #ffffff; }
 
 .offcanvas { width: 100%; }
 
