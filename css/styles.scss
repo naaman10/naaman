@@ -2,6 +2,7 @@
 ---
 // fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://unpkg.com/swiper@8/swiper-bundle.min.css');
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -128,33 +129,14 @@ a {
     cursor: url('https://res.cloudinary.com/njh101010/image/upload/c_scale,w_41/v1649927689/naaman/zoom.png'), auto;	
   }
 }
-.swiper-wrapper {
-  height: auto!important;
-}
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  width: auto!important;
-  height: auto!important;
-  background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  
-}
-.swiper-slide.swiper-slide-active,.swiper-slide.swiper-slide-active {
-  width: auto;
-}
-.swiper-slide img {
-  display: block;
-  object-fit: cover;
+#carouselBlock {
+  .carousel-item {
+    text-align: center;
+  }
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  }
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+  }
 }

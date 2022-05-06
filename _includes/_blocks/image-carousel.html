@@ -1,13 +1,36 @@
-<div class="w-100 my-3 h-auto">
-    {% if section.title %}<h2>{{ section.title }}</h2>{% endif %}
-    <div class="swiper carouselSwiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            {% for image in section.images %}
-            <div class="swiper-slide"><img src="{{ site.cloudinary_url }}c_scale,h_400{{ image.image }}"
-                    class="img-fluid"></div>
-            {% endfor %}
-        </div>
+<section class="container-fluid my-5">
+  {% if section.title %}
+  <div class="row">
+    <div class="col-12">
+      <div class="w-100 my-3 h-auto">
+        <h2>{{ section.title }}</h2>
+      </div>
     </div>
-</div>
+  </div>
+  {% endif %}
+  <div class="row">
+    <div class="col-12">
+      <div id="carouselBlock" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          {% for image in section.images %}
+          <div class="carousel-item {% if forloop.index == 1 %}active{% endif %} ">
+            <div class="row d-flex justify-content-center">
+              <div class="col-6 d-flex justify-content-center">
+                <img src="{{ site.cloudinary_url }}c_scale,h_400{{ image.image }}" class="w-20 img-fluid" alt="{{ image.image_alt }}">
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselBlock" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselBlock" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
