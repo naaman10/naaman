@@ -39,3 +39,6 @@ fields:
     max: 
     labelField: 
   label: Images
+- name: captions
+  type: boolean
+  label: Show Captions
