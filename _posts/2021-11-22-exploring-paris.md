@@ -47,5 +47,6 @@ sections:
   - image: "/v1650635351/naaman/web/CNV000020_p8arzn.jpg"
     alt: Streets of Paris
   title: ''
+  captions: true
 
 ---
