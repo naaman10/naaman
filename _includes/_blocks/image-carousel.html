@@ -12,11 +12,17 @@
     <div class="col-12">
       <div id="carouselBlock" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
+          {% assign i = section.captions %}
           {% for image in section.images %}
           <div class="carousel-item {% if forloop.index == 1 %}active{% endif %} ">
             <div class="row d-flex justify-content-center">
               <div class="col-6 d-flex justify-content-center">
-                <img src="{{ site.cloudinary_url }}c_scale,h_400{{ image.image }}" class="w-20 img-fluid" alt="{{ image.image_alt }}">
+                <figure class="figure">
+                  <img class="figure-img img-fluid"  src="{{ site.cloudinary_url }}c_scale,h_400{{ image.image }}" alt="{{ image.alt }}">
+                  {% if i == true %}
+                  <figcaption class="figure-caption">{{ image.alt }}</figcaption>
+                  {% endif %}
+              </figure>  
               </div>
             </div>
           </div>

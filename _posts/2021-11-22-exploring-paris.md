@@ -43,9 +43,9 @@ sections:
   - image: "/v1650553227/naaman/web/CNV000021_Edited_qpqsue.jpg"
     alt: Notre Dam
   - image: "/v1650632941/naaman/web/CNV000018_lncvkt.jpg"
-    alt: Notre Dam 2
+    alt: Notre Dam from across The Seine 
   - image: "/v1650635351/naaman/web/CNV000020_p8arzn.jpg"
-    alt: Streets of Paris
+    alt: The Streets of Paris
   title: ''
   captions: true
 
