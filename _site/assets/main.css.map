@@ -3,10 +3,10 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"../../home/gitpod/.rvm/gems/ruby-2.7.5/gems/minima-2.5.1/_sass/minima.scss",
-		"../../home/gitpod/.rvm/gems/ruby-2.7.5/gems/minima-2.5.1/_sass/minima/_base.scss",
-		"../../home/gitpod/.rvm/gems/ruby-2.7.5/gems/minima-2.5.1/_sass/minima/_layout.scss",
-		"../../home/gitpod/.rvm/gems/ruby-2.7.5/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
+		"../../home/gitpod/.rvm/gems/ruby-2.7.6/gems/minima-2.5.1/_sass/minima.scss",
+		"../../home/gitpod/.rvm/gems/ruby-2.7.6/gems/minima-2.5.1/_sass/minima/_base.scss",
+		"../../home/gitpod/.rvm/gems/ruby-2.7.6/gems/minima-2.5.1/_sass/minima/_layout.scss",
+		"../../home/gitpod/.rvm/gems/ruby-2.7.6/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
 	],
 	"sourcesContent": [
 		"@import \"minima\";\n",
