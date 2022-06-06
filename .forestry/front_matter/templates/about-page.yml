@@ -14,3 +14,16 @@ fields:
 - type: textarea
   name: intro_section
   label: intro_section
+- name: sections
+  type: blocks
+  label: Sections
+  template_types:
+  - image-left
+  - text
+  - image-right
+  - image-carousel
+  - image-full-width
+  - image-right-dark
+  config:
+    min: 
+    max: 
