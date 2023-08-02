@@ -1,7 +1,19 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "images/uploads"
+media_folder: "naaman/web"
+media_library:
+  name: cloudinary
+  config:
+    default_transformations:
+              -   - fetch_format: auto
+                    quality: auto
+                  - width: 300
+                    crop: fill
+                  - overlay: {font_family: "Verdana", font_size: 25, font_weight: "bold", text_decoration: "underline", letter_spacing: 8, text: "Hello"}
+                    effect: grayscale
+    cloud_name: njh101010 
+    api_key: 957314843258965
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
