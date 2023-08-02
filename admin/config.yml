@@ -45,3 +45,29 @@ collections:
             options:
             - {label: "Light", value: "light" }
             - {label: "Dark", value: "dark" }
+        - label: "Image Left"
+          name: "image-left"
+          widget: "object"
+          fields: 
+          - label: "Image"
+            name: "image"
+            widget: "image"
+            choose_url: true
+            media_library:
+              config:
+                multiple: false
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
+          - label: "Caption"
+            name: "caption"
+            widget: "string"
+          - label: "Size"
+            name: "size"
+            widget: "select"
+            multiple: false
+            options: 
+            - {label: "Full", value: "full"}
+            - {label: "Mobile", value: "Mobile"}
+            - {label: "600", value: "600"}
+            - {label: "300", value: "300"}
