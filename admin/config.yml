@@ -31,13 +31,21 @@ collections:
         name: "sections"
         widget: "object"
         fields:
-        - label: "Text"
-          name: "text"
-          widget: "markdown"
-        - label: "Background"
-          name: "background"
-          widget: "select"
-          multiple: false
-          options:
-          - {label: "Light", value: "light" }
-          - {label: "Dark", value: "dark" }
+        - label: "Templates"
+          name: "templates"
+          widget: "list"
+          fields:
+          - label: "Text"
+            name: "text"
+            widget: "object"
+            fields:
+            - label: "Text"
+              name: "text"
+              widget: "markdown" 
+            - label: "Background"
+              name: "background"
+              widget: "select"
+              multiple: false
+              options:
+              - {label: "Light", value: "light" }
+              - {label: "Dark", value: "dark" }
