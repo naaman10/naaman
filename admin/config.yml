@@ -33,11 +33,15 @@ collections:
         fields:
           - label: "Text"
             name: "text"
-            widget: "markdown"
-          - label: "Background"
-            name: "background"
-            widget: "select"
-            multiple: false
-            options:
-            - {label: "Light", value: "light" }
-            - {label: "Dark", value: "dark" }
+            widget: "object"
+            fields:
+            - label: "Text"
+              name: "text"
+              widget: "markdown"
+            - label: "Background"
+              name: "background"
+              widget: "select"
+              multiple: false
+              options:
+              - {label: "Light", value: "light" }
+              - {label: "Dark", value: "dark" }
