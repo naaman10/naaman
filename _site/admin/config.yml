@@ -28,8 +28,15 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Main Image", name: "main-image", widget: "image"}
   - name: "templates"
-    label: "templates"
+    label: "Templates"
     folder: "admin/templates"
     create: false
     slug: "{{slug}}"
     format: "yml"
+    files:
+    - label: "Text Component"
+      name: "text"
+      file: "admin/templates/text.yml"
+      fields:
+      - {label: "Text", name: "text", widget: "markdown"}
+      - {label: "Background", name: "background", widget: "select", options: ["light", "dark"], multiple: false,}
