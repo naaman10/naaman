@@ -5,7 +5,7 @@ intro: Digital Transformation of Partner Network Sites and Admin Tools
 client: St James's Place
 date: 2022-04-18T22:06:41.000+00:00
 main-image: "/v1647595389/naaman/web/sjp-image.jpg"
-category: personal
+category: digital
 sections:
 - template: text
   text: |-
