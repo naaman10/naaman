@@ -1,0 +1,56 @@
+---
+label: Image Right
+hide_body: true
+fields:
+- name: image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: alt
+    type: text
+    config:
+      required: false
+    label: Alt
+  - name: caption
+    type: text
+    config:
+      required: false
+    label: Caption
+  - name: size
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Full
+      - Mobile
+      - '600'
+      - '300'
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Size
+  label: Image
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
+  default: image_right
+  hidden: true

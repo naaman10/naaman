@@ -1,0 +1,27 @@
+---
+label: Text
+hide_body: true
+fields:
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text
+- name: background
+  type: select
+  default: Light
+  config:
+    required: false
+    options:
+    - Dark
+    - Light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Background

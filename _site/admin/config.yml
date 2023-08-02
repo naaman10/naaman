@@ -27,3 +27,9 @@ collections:
       - {label: "Client", name: "client", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Main Image", name: "main-image", widget: "image"}
+  - name: "templates"
+    label: "templates"
+    folder: "admin/templates"
+    create: false
+    slug: "{{slug}}"
+    format: "yml"
