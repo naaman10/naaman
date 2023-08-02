@@ -39,4 +39,4 @@ collections:
       file: "admin/templates/text.yml"
       fields:
       - {label: "Text", name: "text", widget: "markdown"}
-      - {label: "Background", name: "background", widget: "select", options: ["light", "dark"], multiple: false}
+      - {label: "Background", name: "background", widget: "select", multiple: false, options: ["light", "dark"]}
