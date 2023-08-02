@@ -29,20 +29,15 @@ collections:
       - {label: "Main Image", name: "main-image", widget: "image"}
       - label: "Sections"
         name: "sections"
-        widget: "select"
-        multiple: true
+        widget: "object"
         fields:
-          - label: "Text"
-            name: "text"
-            widget: "object"
-            fields:
-            - label: "Text"
-              name: "text"
-              widget: "markdown"
-            - label: "Background"
-              name: "background"
-              widget: "select"
-              multiple: false
-              options:
-              - {label: "Light", value: "light" }
-              - {label: "Dark", value: "dark" }
+        - label: "Text"
+          name: "text"
+          widget: "markdown"
+        - label: "Background"
+          name: "background"
+          widget: "select"
+          multiple: false
+          options:
+          - {label: "Light", value: "light" }
+          - {label: "Dark", value: "dark" }
