@@ -28,7 +28,7 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Main Image", name: "main-image", widget: "image"}
       - label: "Templates"
-        name: "templates"
+        name: "sections"
         widget: "list"
         fields:
         - label: "Text"
