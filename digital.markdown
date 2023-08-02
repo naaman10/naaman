@@ -1,6 +1,6 @@
 ---
 layout: post-listing
-category: digital
+category: personal
 permalink: /projects
 title: Projects
 ---

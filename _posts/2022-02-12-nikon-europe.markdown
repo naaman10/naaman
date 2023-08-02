@@ -5,7 +5,7 @@ intro: Digital Transformation and Redesign of all European Sites & Platforms
 client: Nikon
 date: 2022-02-12T23:06:41.000+00:00
 main-image: "/v1647593691/naaman/web/nikon-zebras.jpg"
-category: digital
+category: personal
 sections:
 - template: text
   text: |-
