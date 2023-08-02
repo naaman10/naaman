@@ -27,16 +27,17 @@ collections:
       - {label: "Client", name: "client", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Main Image", name: "main-image", widget: "image"}
-  - name: "templates"
-    label: "Templates"
-    folder: "admin/templates"
-    create: false
-    slug: "{{slug}}"
-    format: "yml"
-    files:
-    - label: "Text Component"
-      name: "text"
-      file: "admin/templates/text.yml"
-      fields:
-      - {label: "Text", name: "text", widget: "markdown"}
-      - {label: "Background", name: "background", widget: "select", multiple: false, options: ["light", "dark"]}
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        fields:
+          - label: "Text"
+            name: "text"
+            widget: "markdown"
+          - label: "Background"
+            name: "background"
+            widget: "select"
+            multiple: false
+            options:
+            - {label: "Light", value: "light" }
+            - {label: "Dark", value: "dark" }
