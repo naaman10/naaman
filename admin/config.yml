@@ -27,25 +27,21 @@ collections:
       - {label: "Client", name: "client", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Main Image", name: "main-image", widget: "image"}
-      - label: "Sections"
-        name: "sections"
-        widget: "object"
+      - label: "Templates"
+        name: "templates"
+        widget: "list"
         fields:
-        - label: "Templates"
-          name: "templates"
-          widget: "list"
+        - label: "Text"
+          name: "text"
+          widget: "object"
           fields:
           - label: "Text"
             name: "text"
-            widget: "object"
-            fields:
-            - label: "Text"
-              name: "text"
-              widget: "markdown" 
-            - label: "Background"
-              name: "background"
-              widget: "select"
-              multiple: false
-              options:
-              - {label: "Light", value: "light" }
-              - {label: "Dark", value: "dark" }
+            widget: "markdown" 
+          - label: "Background"
+            name: "background"
+            widget: "select"
+            multiple: false
+            options:
+            - {label: "Light", value: "light" }
+            - {label: "Dark", value: "dark" }
