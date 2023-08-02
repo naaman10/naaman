@@ -29,7 +29,8 @@ collections:
       - {label: "Main Image", name: "main-image", widget: "image"}
       - label: "Sections"
         name: "sections"
-        widget: "list"
+        widget: "select"
+        multiple: true
         fields:
           - label: "Text"
             name: "text"
