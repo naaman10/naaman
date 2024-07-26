@@ -1,6 +1,6 @@
 <nav class="navbar p-4 {% if page.title == "Home" %}navbar-dark{% else %}navbar-light{% endif %}">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Naaman Hudson</a>
+      <a class="navbar-brand" href="{{ site.url | relative_url }}/{{ site.baseurl }}">Naaman Hudson</a>
       <button class="navbar-toggler borderless" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <i class="fa fa-regular fa-plus"></i>
       </button>

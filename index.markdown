@@ -13,5 +13,10 @@ banner:
   image_gravity: g_auto
   title: St. James's Place Wealth Management
   url: "/digital/2022/04/18/st-james-place.html"
+- image: "/v1721984578/naaman/web/polling-station.jpg"
+  image_alt: "Electoral Integrity Program DLUHC"
+  image_gravity: g_auto
+  title: Electoral Integrity Program DLUHC
+  url: "/digital/2023/12/03/dluhc.html"
   
 ---
