@@ -12,9 +12,9 @@ layout: default
 <section class="container-fluid section-black">
     <div class="row">
         <div class="col-12 col-md-8 offset-md-2">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row d-flex flex-row row-cols-1 row-cols-md-3 g-4">
             {% for category in page.categories %}
-            <div class="col">
+            <div class="col d-flex align-items-stretch">
                 <a href="{{ site.github.url }}{{ category.link }}">
               <div class="card p-0 img-zoom animate__animated animate__fadeInUp">
                 <img src="{{ site.cloudinary_url }}{{ category.image.image }}" class="card-img-top " alt="{{ category.image.alt }}">
