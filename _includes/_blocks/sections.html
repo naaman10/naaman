@@ -11,5 +11,9 @@
     {% include _blocks/image_left.html %}
   {% elsif section.template == "image-carousel" %}
     {% include _blocks/image-carousel.html %}
-  {% endif %}
+  {% elsif section.template == "image-carousel-small" %}
+    {% include _blocks/image-carousel-small.html %}
+  {% elsif section.template == "brands" %}
+    {% include _blocks/brands.html %}
+{% endif %}
 {%endfor%}

@@ -1,0 +1,42 @@
+<section class="container-fluid my-5">
+  {% if section.title %}
+  <div class="row">
+    <div class="col-12">
+      <div class="w-100 my-3 h-auto">
+        <h2>{{ section.title }}</h2>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  <div class="row">
+    <div class="col-12">
+      <div id="carouselBlockSmall" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          {% assign i = section.captions %}
+          {% for image in section.images %}
+          <div class="carousel-item {% if forloop.index == 1 %}active{% endif %} ">
+            <div class="row d-flex justify-content-center">
+              <div class="col-3 d-flex justify-content-center">
+                <figure class="figure">
+                  <img class="figure-img img-fluid"  src="{{ site.cloudinary_url }}c_scale,h_400{{ image.image }}" alt="{{ image.alt }}">
+                  {% if i == true %}
+                  <figcaption class="figure-caption">{{ image.alt }}</figcaption>
+                  {% endif %}
+              </figure>  
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselBlock" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselBlock" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
