@@ -21,9 +21,14 @@ sections:
     Join me in exploring how we can turn ideas into impactful realities!
 - template: text
   text: |-
+    ## Work History
+  background: Light
+- template: timeline
+- template: text
+  text: |-
     ## Clients
 
-    Throughout my career I have had the priveledge to work with a lot of recognisable national and international brands. Here some of the brands I have worked with
+    Throughout my career I have had the priveledge to work with a lot of recognisable national and international brands. Here some of the brands I have worked with:
   background: Light
 - template: brands
   images:
