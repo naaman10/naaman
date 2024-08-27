@@ -4,7 +4,7 @@ title: St James's Place
 intro: Digital Transformation of Partner Network Sites and Admin Tools
 client: St James's Place
 date: 2022-04-18T22:06:41.000+00:00
-main-image: "/v1647595389/naaman/web/sjp-image.jpg"
+main-image: "/v1724753822/naaman/web/sjp-banner.jpg"
 category: digital
 sections:
 - template: text
@@ -31,7 +31,7 @@ sections:
 
     Secondly, due to contractual limitations between the client and the incumbent, notice was given to the incumbent which gave us a hard cut-off date.
   image:
-    image: "/v1649864549/naaman/web/iPhone_12_Pro_-_Dark_ckpcfw.png"
+    image: "/v1724753412/naaman/web/sjp-mobile.png"
     alt: SJP Placeholder Image
     caption: ''
     size: Mobile
@@ -50,6 +50,7 @@ sections:
   text: |-
     ## The Result
 
-    A data management suite that allowed the client to quickly and efficiently manage partner and regulatory data, site themes and site publications. This was part of the implementation which won the 2021 UK Dev Awards Best Deployment of a CMS.
-
+    A new digital ecosystem was developed to support St. James’s Place’s rapidly growing adviser network, addressing key challenges that were identified during Discovery. The redesigned digital framework ensures the longevity of the Partnership programme, with a strategic focus on scaling up Partners alongside the growth ambitions of the SJP core business.
+    
+    This project was recognised for its excellence, winning the 2021 UK Dev Awards for Best Deployment of a CMS.
 ---

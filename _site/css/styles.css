@@ -46,7 +46,7 @@ a { text-decoration: none; }
 
 .img-zoom img:hover { transform: scale(1.1); }
 
-.section-black { background-color: #0E0E0E; min-height: 50vh; }
+.section-black { background-color: #0E0E0E; padding-top: 30px; padding-bottom: 30px; }
 
 .section-black .row-cols-1 { margin-top: -200px; }
 
