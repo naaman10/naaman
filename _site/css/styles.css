@@ -42,7 +42,7 @@ a { text-decoration: none; }
 
 .img-zoom { overflow: hidden !important; }
 
-.img-zoom img { transition: transform .5s ease; }
+.img-zoom img { transition: transform .5s ease; width: 100%; }
 
 .img-zoom img:hover { transform: scale(1.1); }
 

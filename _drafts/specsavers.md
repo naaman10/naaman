@@ -1,0 +1,82 @@
+---
+layout: post
+title: Specsavers
+intro: CMS Migration and Ecommerce Integration
+client: Specsavers
+date: 2024-02-01T22:06:41.000+00:00
+main-image: "/v1724757629/naaman/web/specsavers-banner.jpg"
+category: digital
+sections:
+- template: text
+  text: |-
+    ## Introduction
+
+    As of January 2023, new legistaltion came in to law in the United Kingdom requiring voters to produce a form or photo ID in order to participate in elections such as Parlimentary Elections, Local Elections and Police and Crime Commissioner Elections. Due to this new legistlation, the governement provisioned a scheme to allow citizens, who do not have a conventional for of photo ID, to apply for a temporary Voter ID.
+
+    My role as Lead Business Analyst within this project was to discover, define and build the administration portal which would allow local Electoral Registry Offices to process, approve and produce Voter ID Certificates. 
+  background: Light
+- template: image-left
+  name: image_left
+  text: |-
+    ## The Challenge
+
+    As you can imagine, a government project which encorporates a change a law to our democratic process, touches every council and devolved nation, and every voting age citizen will present with a multitude of challenges. As mentioned this project was to discover, define and build an admin portal allowing local officals to manage Voter ID applications. The project faced some strict constaints in that the change in law had a fixed date and some planned local elections also had a fixed date, meaning our service had to be available at the time the new law came in to effect and fully operational before the local election period began. 
+  image:
+    image: "/v1721983745/naaman/web/voter-id-electoral-commission.jpg"
+    alt: SJP Placeholder Image
+    caption: ''
+    size: 600
+- template: text
+  background: Light
+  text: |-
+    ## Discover
+
+    During Discovery, my role was to work closely with our stakeholders to plan and uncover exactly what would be needed and begin designing the full end to end Service Blueprint and Target Operating Model, define requirements which would enable design teams to start building and testing prototypes. Our ultimate goal of Discovery was to have a Service Design and Prototype pass the GDS (Government Digital Services) Alpha Assessment.
+    
+    Discovery included many internal and external workshops with stakeholders, design and development teams, other government departments, integration partners. Here's some of the people we worked closely with during Discovery:
+    
+    **Stakeholders**
+    * Electoral Registry Officers
+    * DLUHC Digital Leadership
+    * Cabinet Officers 
+    * Electoral Commission
+    
+    **Internal Teams**
+    * Design
+    * Architecture
+    * Development 
+    * Leadership
+
+    **Government Departments**
+    * DLUHC
+    * Home Office
+    * DVLA
+    * DWP
+    * Cabinet Office
+
+    **Integration Partners**
+    * HM Passport Office
+    * DWP - National Insurance
+    * Electoral Registration Systems
+    * GOV Notify
+    * Print Providers
+- template: text
+  background: Light
+  text: |-
+    ## Define & Build
+
+    Once we passed the GDS Alpha Assessment, we were able to begin an Agile define/design and development phase of the project. My role within this phase of work was to define the technical requirements needed to delivery on the prototype. It was my responsibility to fully understand the needs of the users admin portal, the law and capabilities of the external APIs we would need to integrate with in order to define how the portal would need to work. I worked with our internal developers to define our own APIs, making sure that strict user roles and permissions where in place in order that, at all times, our service adhered to the law. This at times was challenging as, during Discovery and Definition, the legistlation would frequently change as it was being defined and reviewed. Agile development really help us to quickly adapt and change as new legal requirements came to us. 
+
+    In addition to API definition, I also defined the front-end and data and anlytics requirements. Working with a team of UX/UI designers and Front-End developers, we created and easy to use experience for Electoral Registry Officers to be able to manage and process applications for Voter ID. Analytics is a vital part of allowing the goverment to understand service efficacy and cost, I was tasked with defining a KPI framework and, due to the sensitive nature of the data, a custom API to send events and metrics to the governments internal digital reporting service.   
+
+    During the Define & Build phase it was vital to have a clear roadmap to articulate progress to stakeholders and provide development with an understanding of priorities and context. Working closely with project management and stakeholders. I decided the best option was to maintain roadmap and product backlog directly in Jira as it was the best way to give a consistently 'as is' view of the project, especially vital with multiple stakeholders and frequently changing legislative requirements. 
+- template: text
+  background: Light
+  text: |-
+    ## The Result
+
+    Our team successfully built the admin portal to time and cost and were able to see the success of the portal realised during the first local election. The portal, our Service Blueprint, Target Operating Model and UX research and outcomes all passed the GDS Alpha and Beta Assessments ahead of production go-live with overwhelmingly positive feedback. 
+    
+    Despite public scrutiny of the new legislation, the project was a resounding success, hitting all of our deadlines and milestones as planned.  
+
+---

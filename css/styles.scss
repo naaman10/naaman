@@ -82,6 +82,7 @@ a {
   overflow: hidden!important;
   img {
   transition: transform .5s ease;
+  width:100%;
   &:hover {
     transform: scale(1.1);
   }
