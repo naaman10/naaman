@@ -1,11 +1,12 @@
 ---
-layout: post
 title: Nikon Europe
+date: 2022-02-12 23:06:41 Z
+categories:
+- digital
+layout: post
 intro: Digital Transformation and Redesign of all European Sites & Platforms
 client: Nikon
-date: 2022-02-12T23:06:41.000+00:00
 main-image: "/v1647593691/naaman/web/nikon-zebras.jpg"
-category: digital
 sections:
 - template: text
   text: |-
@@ -78,5 +79,5 @@ sections:
     Lorem ipsum dolor sit amet himenaeos. Finibus lobortis himenaeos elementum auctor sollicitudin platea ad et pulvinar dignissim. Consequat ligula finibus dui ornare ridiculus bibendum platea leo ullamcorper mus eleifend. Class taciti tristique purus cursus hendrerit laoreet magnis rutrum. Mus integer non dui arcu at duis conubia quis est lectus. Dapibus augue faucibus sollicitudin viverra pretium praesent nisl interdum. Sem mauris tristique elit pede at.
 
     Augue efficitur tempus praesent nunc feugiat sapien natoque dolor nibh himenaeos. Fames taciti viverra lobortis scelerisque commodo hendrerit vivamus vestibulum quam libero tempus. Mattis si nullam ligula elit quis amet. Sapien sollicitudin erat tristique fames commodo nunc netus id praesent consequat cras. Quam felis ante diam est blandit ex pellentesque montes.
-
 ---
+

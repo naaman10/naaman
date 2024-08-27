@@ -1,6 +1,7 @@
 ---
+title: Projects
+permalink: "/projects"
 layout: post-listing
 category: digital
-permalink: /projects
-title: Projects
 ---
+

@@ -1,7 +1,7 @@
 ---
-layout: projects
 title: Projects
 permalink: "/projects/"
+layout: projects
 intro_section: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
@@ -24,7 +24,8 @@ categories:
 - image:
     image: "/v1649774111/naaman/web/CNV00033_l1lkul.jpg"
     alt: Articles
-  description: Some articles by me about all sorts  
+  description: Some articles by me about all sorts
   link: "#"
   title: Articles
 ---
+

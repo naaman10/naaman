@@ -1,11 +1,12 @@
 ---
-layout: post
 title: Exploring Paris
+date: 2021-11-22 00:00:00 Z
+categories:
+- personal
+layout: post
 intro: I recently took a trip to Paris, here's what I found
 client: ''
-date: 2021-11-22T00:00:00.000+00:00
 main-image: "/v1650553227/naaman/web/CNV000021_Edited_qpqsue.jpg"
-category: personal
 sections:
 - template: text
   background: Light
@@ -43,10 +44,10 @@ sections:
   - image: "/v1650553227/naaman/web/CNV000021_Edited_qpqsue.jpg"
     alt: Notre Dam
   - image: "/v1650632941/naaman/web/CNV000018_lncvkt.jpg"
-    alt: Notre Dam from across The Seine 
+    alt: Notre Dam from across The Seine
   - image: "/v1650635351/naaman/web/CNV000020_p8arzn.jpg"
     alt: The Streets of Paris
   title: ''
   captions: true
-
 ---
+

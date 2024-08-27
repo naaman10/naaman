@@ -1,6 +1,6 @@
 ---
-layout: home
 title: Home
+layout: home
 intro_text: hi, my name is **naaman Hudson**, a **product specialist** based in Manchester.
 banner:
 - image: "/v1647593691/naaman/web/nikon-zebras.jpg"
@@ -13,5 +13,5 @@ banner:
   image_gravity: g_auto
   title: St. James's Place Wealth Management
   url: "/digital/2022/04/18/st-james-place.html"
-  
 ---
+

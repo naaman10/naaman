@@ -1,7 +1,7 @@
 ---
-layout: about
 title: About
 permalink: "/about/"
+layout: about
 intro_section: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
   nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
@@ -24,5 +24,5 @@ sections:
     tortor mattis scelerisque vestibulum fusce sollicitudin rutrum vulputate ligula.
     Hac ad hendrerit fames mus sodales lobortis iaculis. Leo suscipit ligula pulvinar
     posuere maximus senectus.
-
 ---
+

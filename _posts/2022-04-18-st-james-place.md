@@ -1,11 +1,12 @@
 ---
-layout: post
 title: St James's Place
+date: 2022-04-18 22:06:41 Z
+categories:
+- digital
+layout: post
 intro: Digital Transformation of Partner Network Sites and Admin Tools
 client: St James's Place
-date: 2022-04-18T22:06:41.000+00:00
 main-image: "/v1647595389/naaman/web/sjp-image.jpg"
-category: digital
 sections:
 - template: text
   text: |-
@@ -51,5 +52,5 @@ sections:
     ## The Result
 
     A data management suite that allowed the client to quickly and efficiently manage partner and regulatory data, site themes and site publications. This was part of the implementation which won the 2021 UK Dev Awards Best Deployment of a CMS.
-
 ---
+
