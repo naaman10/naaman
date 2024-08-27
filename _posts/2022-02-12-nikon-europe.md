@@ -75,8 +75,20 @@ sections:
   text: |-
     ## Discovery Phase
 
-    Lorem ipsum dolor sit amet himenaeos. Finibus lobortis himenaeos elementum auctor sollicitudin platea ad et pulvinar dignissim. Consequat ligula finibus dui ornare ridiculus bibendum platea leo ullamcorper mus eleifend. Class taciti tristique purus cursus hendrerit laoreet magnis rutrum. Mus integer non dui arcu at duis conubia quis est lectus. Dapibus augue faucibus sollicitudin viverra pretium praesent nisl interdum. Sem mauris tristique elit pede at.
+    The Discovery Phase was a pivitol opportunity to deep dive in to the pain points identified during the strategy mapping with the individual business units. Our key objective was to explore what regional user and business requirements each team had and to rationalise those requirements in to a centralised solution through high-level User Stories and Epics and to start to plan those on to a roadmap. 
 
-    Augue efficitur tempus praesent nunc feugiat sapien natoque dolor nibh himenaeos. Fames taciti viverra lobortis scelerisque commodo hendrerit vivamus vestibulum quam libero tempus. Mattis si nullam ligula elit quis amet. Sapien sollicitudin erat tristique fames commodo nunc netus id praesent consequat cras. Quam felis ante diam est blandit ex pellentesque montes.
+    By the end of Discovery we had a planned roadmap for the first two quaters of delivery, UX Wireframes of key page templates such as homepage and product details, supporting user stories and detailed initiatives for larger delivery goals such as educational streaming content library, 
+    
+    During Discovery, we also ran a parallel Technical Discovery where we took our user and business requirements to the technical team to define the system architechture and techincal stories for things like content, media and product API's.
+- template: image-right-dark
+  image:
+    image: "/v1724659020/naaman/web/nikon-desktop.png"
+    alt: Nikon Desktop
+    caption: Nikon Desktop
+    size: ''
+  text: |-
+    ## Delivery Phase
 
+    Delivery is where our Agile delivery truly begins 
+  name: ''
 ---
