@@ -66,6 +66,9 @@ a {
 .borderless {
   border: 0px solid transparent!important;
 }
+.min-vh-50 {
+	min-height: 50vh;
+}
 .mt-n30, .my-n30 {
   margin-top: -30px!important;
 }
@@ -149,7 +152,7 @@ a {
 	display: grid;
 	border: 0;
 	position: relative;
-	min-width: 800px;
+	min-width: 1000px;
 	overflow: scroll;
 	box-sizing: border-box;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);

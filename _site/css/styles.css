@@ -32,6 +32,8 @@ a { text-decoration: none; }
 
 .borderless { border: 0px solid transparent !important; }
 
+.min-vh-50 { min-height: 50vh; }
+
 .mt-n30, .my-n30 { margin-top: -30px !important; }
 
 .mb-n10, .my-n10 { margin-bottom: -10px !important; }
@@ -74,7 +76,7 @@ a { text-decoration: none; }
 
 .overflow-x-overlay { overflow: overlay; }
 
-.gantt { display: grid; border: 0; position: relative; min-width: 800px; overflow: scroll; box-sizing: border-box; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+.gantt { display: grid; border: 0; position: relative; min-width: 1000px; overflow: scroll; box-sizing: border-box; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .gantt__row { display: grid; grid-template-columns: 150px 1fr; background-color: #fff; }
 

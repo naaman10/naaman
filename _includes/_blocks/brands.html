@@ -2,7 +2,7 @@
     <div class="row align-items-center">
         {% for image in section.images %}
             <div class="col-4 col-md-2">
-                <img class="img-fluid" src="{{ site.cloudinary_url }}c_scale,h_400{{ image.image }}" alt="{{ image.alt }}">
+                <img class="img-fluid animate__animated animate__fadeIn" src="{{ site.cloudinary_url }}c_scale,h_400{{ image.image }}" alt="{{ image.alt }}">
             </div>
         {% endfor %}
     </div>
