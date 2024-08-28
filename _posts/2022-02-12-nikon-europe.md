@@ -91,15 +91,4 @@ sections:
 
     Delivery is where our Agile delivery truly began! From Discovery, we took our requirements and UX design through to delivery. I created a unified design and development sprint process with design 2 sprints ahead allowing an efficient and consistent flow of designs through to the development team with enough time to fully refine and spec the required stories. During this phase of work, I very much assume the role of Product Owner to manage sprint ceremonies (refinement, 3 Amigos, sprint planning, retros and stand-ups), manage the backlog and priorities and to work with the client-side Product Manager to understand and deliver the vision of the product.  
   name: ''
-content: 
-- type: image_left
-  image:
-    - image: "/v1649856909/naaman/web/nikonzfc_zpfves.png"
-    - alt: Nikon Zfc
-    - caption: The Nikon Z fc
-    - size: ''
-  text: |-
-    Over the last 2 years (2020 to 2022) I have been engaged with the European division of Nikon (Nikon B.V.) on an extensive Digital Transformation project. As an avid photography enthusiast, this was such a great opportunity to work on a product from an industry and brand I love.
-
-    Like most Digital Transformation projects, the scope with Nikon B.V. is huge, from E-Commerce to Automated Marketing and everything in-between. There is no aspect of the B.V. ecosystem I didn’t touch.
 ---
