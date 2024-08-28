@@ -1,9 +1,9 @@
 {% for section in page.sections %}
-  {% if section.template == "image-right" %}
+  {% if section.type == "image-right" %}
     {% include _blocks/image_right.html %}
   {% elsif section.template == "image-right-dark" %}
     {% include _blocks/image_right_dark.html %}
-  {% elsif section.template == "text" %}
+  {% elsif section.type == "text" %}
     {% include _blocks/text.html %}
   {% elsif section.template == "image-full-width" %}
     {% include _blocks/image_full_width.html %}
@@ -13,9 +13,9 @@
     {% include _blocks/image-carousel.html %}
   {% elsif section.template == "image-carousel-small" %}
     {% include _blocks/image-carousel-small.html %}
-  {% elsif section.template == "brands" %}
+  {% elsif section.type == "brands" %}
     {% include _blocks/brands.html %}
-  {% elsif section.template == "timeline" %}
+  {% elsif section.type == "timeline" %}
     {% include _blocks/timeline.html %}
 {% endif %}
 {%endfor%}

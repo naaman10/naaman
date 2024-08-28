@@ -1,4 +1,10 @@
-<section class="container animate__animated animate__slideInUp">
+
+{% if section.background == "Dark" %}
+<section class="container-fluid section-black text-white animate__animated animate__slideInUp">
+    <section class="container">
+{% else %}
+<section class="container py-4 animate__animated animate__slideInUp">
+{% endif %}
     <div class="row">
         <div class="col-12 col-md-7 d-flex align-items-center animate__animated animate__fadeInLeft">
             <div class="d-inline">
@@ -14,7 +20,11 @@
             </figure>  
         </div>
     </div>
+{% if section.background == "Dark" %}
 </section>
+{% endif %}
+</section>
+
 
   
 <!-- Modal -->

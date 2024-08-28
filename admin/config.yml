@@ -14,14 +14,17 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Main Image", name: "main-image", widget: "image" }
       - label: 'Content'
         name: 'sections'
         widget: 'list'
         types:
           - label: 'Text'
             name: 'text'
-            widget: 'markdown'
+            widget: 'object'
+            fields:
+            - { label: Text, name: text, widget: markdown}
+            - { label: Background, name" background, widget: select, options: [Dark, Light]}
           - label: 'Image Left'
             name: 'image-left'
             widget: 'object'
@@ -35,4 +38,24 @@ collections:
                 - { label: Caption, name: caption, widget: text}
                 - { label: Size, name: size, widget: select, options: ["full", "mobile", "600", "300"]}
               - { label: Text, name: text, widget: markdown }
-              - { label: name, name: name, widget: text, default: image_left}
+              - { label: Background, name: background, widget: select, options: [Dark, Light]}
+          - label: 'Brands'
+            name: 'brands'
+            widget: 'list'
+            fields:
+            - { label: Image URL, name: image, widget: text}
+            - { label: Alt Text, name: alt, widget: text}
+          - label: 'Image Right'
+            name: 'image-right'
+            widget: 'object'
+            fields: 
+              - label: 'Image' 
+                name: 'image'
+                widget: 'object'
+                fields: 
+                - { label: Image, name: image, widget: text}
+                - { label: Alt Text, name: alt, widget: text}
+                - { label: Caption, name: caption, widget: text}
+                - { label: Size, name: size, widget: select, options: ["full", "mobile", "600", "300"]}
+              - { label: Text, name: text, widget: markdown }
+              - { label: Background, name: background, widget: select, options: [Dark, Light]}

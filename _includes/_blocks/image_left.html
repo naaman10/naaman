@@ -1,4 +1,9 @@
-<section class="container">
+{% if section.background == "Dark" %}
+<section class="container-fluid section-black text-white animate__animated animate__slideInUp">
+    <section class="container">
+{% else %}
+<section class="container py-4">
+{% endif %}
     <div class="row">
         <div class="col-12 col-md-5 text-center">
             <figure class="figure">
@@ -14,6 +19,9 @@
             </div>
         </div>
     </div>
+{% if section.background == "Dark" %}
+</section>
+{% endif %}
 </section>
 
   

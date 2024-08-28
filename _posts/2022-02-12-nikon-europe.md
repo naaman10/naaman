@@ -7,7 +7,7 @@ date: 2022-02-12T23:06:41.000+00:00
 main-image: "/v1647593691/naaman/web/nikon-zebras.jpg"
 category: digital
 sections:
-- template: text
+- type: text
   text: |-
     ## Introduction
 
@@ -26,7 +26,7 @@ sections:
 
     Like most Digital Transformation projects, the scope with Nikon B.V. is huge, from E-Commerce to Automated Marketing and everything in-between. There is no aspect of the B.V. ecosystem I didn’t touch.
   name: ''
-- template: text
+- type: text
   text: |-
     ## Project Background
 
@@ -42,7 +42,7 @@ sections:
 
     This is where I come in…
   background: Light
-- template: text
+- type: text
   text: "## Strategy Phase\n\nMy role during the strategy phase was to work with Nikon
     to understand exactly what their current state of play is, and to get to grips
     with their landscape. \n\nTo start the phase, I decided to run a series of workshops
@@ -57,8 +57,8 @@ sections:
     Analytics & Data Quality\n* User Experience\n* Centralisation\n* Platform Security
     & GDPR\n* Revenue Opportunities"
   background: Light
-- template: image-right
-  name: image_right
+- type: image-right
+  name: image-right
   image:
     image: "/v1651052315/naaman/web/Screenshot_2022-04-27_at_10.38.22_xdhj9l.png"
     alt: Strategy Mapping
@@ -70,7 +70,8 @@ sections:
     Secondly, we’re able to map individual pain points and requirements to pillars to give context to certain requirements.
 
     Finally, it allows us to get to grips with the objectives for the following projects and to be able to begin to understand the scope of work ahead.
-- template: text
+  background: Light
+- type: text
   background: Dark
   text: |-
     ## Discovery Phase
@@ -80,7 +81,7 @@ sections:
     By the end of Discovery we had a planned roadmap for the first two quaters of delivery, UX Wireframes of key page templates such as homepage and product details, supporting user stories and detailed initiatives for larger delivery goals such as educational streaming content library, 
     
     During Discovery, we also ran a parallel Technical Discovery where we took our user and business requirements to the technical team to define the system architechture and techincal stories for things like content, media and product API's.
-- template: image-right-dark
+- type: image-right
   image:
     image: "/v1724659020/naaman/web/nikon-desktop.png"
     alt: Nikon Desktop
@@ -90,5 +91,5 @@ sections:
     ## Delivery Phase
 
     Delivery is where our Agile delivery truly began! From Discovery, we took our requirements and UX design through to delivery. I created a unified design and development sprint process with design 2 sprints ahead allowing an efficient and consistent flow of designs through to the development team with enough time to fully refine and spec the required stories. During this phase of work, I very much assume the role of Product Owner to manage sprint ceremonies (refinement, 3 Amigos, sprint planning, retros and stand-ups), manage the backlog and priorities and to work with the client-side Product Manager to understand and deliver the vision of the product.  
-  name: ''
+  background: Dark
 ---

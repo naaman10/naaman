@@ -4,7 +4,7 @@ title: About
 permalink: "/about/"
 intro_section: Hello, my name is Naaman, I am a digital product professional with over 10 years experience in delivering complex digital transformations for some of the worlds most recognised brands.
 sections:
-- template: image-left
+- type: image-left
   name: image_left
   image:
     image: "/v1722000883/naaman/web/DDZ_Roll064_frame24.jpg"
@@ -19,29 +19,41 @@ sections:
     As a leader, I focus on inspiring and empowering my team. We celebrate our achievements together and view setbacks as opportunities for growth and learning. I believe in providing my team with all the information and resources they need to succeed, while fostering an environment that values individual autonomy and aligns with Agile principles.
 
     Join me in exploring how we can turn ideas into impactful realities!
-- template: text
+- type: text
   text: |-
     ## Work History
   background: Light
-- template: timeline
-- template: text
+- type: timeline
+- type: text
   text: |-
     ## Clients
 
     Throughout my career I have had the priveledge to work with a lot of recognisable national and international brands. Here some of the brands I have worked with:
   background: Light
-- template: brands
+- type: brands
   images:
   - image: "/v1722007636/naaman/web/brands/Goodyear-logo-old.webp"
+    alt: "Goodyear Logo"
   - image: "/v1722007663/naaman/web/brands/3aee39d998ac393f43e8df5f40ec7ff0.png"
+    alt: "Valtech Logo"
   - image: "/v1722007584/naaman/web/brands/centrica-storage-logo-D55F32E407-seeklogo.com.png"
+    alt: "Centrica Storage Ltd Logo"
   - image: "/v1722007549/naaman/web/brands/DEPT_-LOGO-2022-Black.png"
+    alt: "Dept Logo"
   - image: "/v1722007550/naaman/web/brands/laterooms-logo.png"
+    alt: "Laterooms Logo"
   - image: "/v1722007549/naaman/web/brands/SJP-new-logo-200x153.png"
+    alt: "St. James's Place Logo"
   - image: "/v1722007824/naaman/web/brands/triumph-logo.png"
+    alt: "Triumph Logo"
   - image: "/v1722007548/naaman/web/brands/weir-group-logo.jpg"
+    alt: "Weir Group Logo"
   - image: "/v1722007547/naaman/web/brands/nikon-logo.webp"
+    alt: "Nikon Logo"
   - image: "/v1722007544/naaman/web/brands/DLUHC_0.png"
+    alt: "DLUHC Logo"
   - image: "/v1722007509/naaman/web/brands/Johnson_Matthey_logo_2020.jpg"
+    alt: "Johnson Matthey Logo"
   - image: "/v1722007508/naaman/web/brands/specsavers.png"
+    alt: "Specsavers Logo"
 ---
