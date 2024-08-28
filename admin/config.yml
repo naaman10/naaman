@@ -15,15 +15,15 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
-      - label: 'Home Section'
-        name: 'sections'
+      - label: 'Content'
+        name: 'content'
         widget: 'list'
         types:
           - label: 'Text'
             name: 'text'
             widget: 'markdown'
           - label: 'Image Left'
-            name: 'image_left'
+            name: 'image-left'
             widget: 'object'
             fields: 
               - label: 'Image' 
