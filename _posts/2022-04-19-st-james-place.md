@@ -33,7 +33,7 @@ sections:
   background: Light
   image:
     image: "/v1724753412/naaman/web/sjp-mobile.png"
-    alt: SJP Placeholder Image
+    alt: SJP Mobile Experience Image
     caption: ''
     size: Mobile
 - type: text
