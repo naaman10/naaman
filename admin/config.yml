@@ -16,7 +16,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Client", name: "client", widget: "string", required: true }
       - { label: "Intro", name: "intro", widget: "string", required: true}
-      - { label: "Category", name: "category", widget: "select", options: ["Digital", "Personal"], default: "Digital", required: true }
+      - { label: "Category", name: "category", widget: "select", options: ["digital", "personal"], default: "digital", required: true }
       - { label: "Main Image", name: "main-image", widget: "string", required: true }
       - label: 'Content'
         name: 'sections'
