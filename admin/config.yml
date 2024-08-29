@@ -59,3 +59,24 @@ collections:
                 - { label: Size, name: size, widget: select, options: ["full", "mobile", "600", "300"]}
               - { label: Text, name: text, widget: markdown }
               - { label: Background, name: background, widget: select, options: [Dark, Light]}
+          - label: 'Image Carousel'
+            name: 'image-carousel'
+            widget: 'object'
+            fields:
+            - label: 'Title'
+              name: 'title'
+              widget: 'string'
+            - label: 'Background'
+              name: 'Background'
+              widget: 'select'
+              options: ['Light', 'Dark']
+            - label: 'Show Captions'
+              name: 'captions'
+              widget: 'boolean'
+              default: false
+            - label: 'Images'
+              name: 'images'
+              widget: 'list'
+              fields:
+              - { label: Image URL, name: image, widget: string }
+              - { label: Alt Text, name: alt, widget: string }
