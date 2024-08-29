@@ -36,9 +36,9 @@ collections:
                 name: 'image'
                 widget: 'object'
                 fields: 
-                - { label: Image, name: image, widget: text}
-                - { label: Alt Text, name: alt, widget: text}
-                - { label: Caption, name: caption, widget: text}
+                - { label: Image, name: image, widget: string}
+                - { label: Alt Text, name: alt, widget: string}
+                - { label: Caption, name: caption, widget: string}
                 - { label: Size, name: size, widget: select, options: ["full", "mobile", "600", "300"]}
               - { label: Text, name: text, widget: markdown }
               - { label: Background, name: background, widget: select, options: [Dark, Light]}
@@ -46,8 +46,8 @@ collections:
             name: 'brands'
             widget: 'list'
             fields:
-            - { label: Image URL, name: image, widget: text}
-            - { label: Alt Text, name: alt, widget: text}
+            - { label: Image URL, name: image, widget: string}
+            - { label: Alt Text, name: alt, widget: string}
           - label: 'Image Right'
             name: 'image-right'
             widget: 'object'
@@ -56,9 +56,9 @@ collections:
                 name: 'image'
                 widget: 'object'
                 fields: 
-                - { label: Image, name: image, widget: text}
-                - { label: Alt Text, name: alt, widget: text}
-                - { label: Caption, name: caption, widget: text}
+                - { label: Image, name: image, widget: string}
+                - { label: Alt Text, name: alt, widget: string}
+                - { label: Caption, name: caption, widget: string}
                 - { label: Size, name: size, widget: select, options: ["full", "mobile", "600", "300"]}
               - { label: Text, name: text, widget: markdown }
               - { label: Background, name: background, widget: select, options: [Dark, Light]}
