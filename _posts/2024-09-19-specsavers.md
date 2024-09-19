@@ -29,4 +29,11 @@ sections:
 
       Before my involvement, every Specsavers site across Europe, North America and Australasia managed content from Drupal 7. A now antiquated version of Drupal, originally released in 2011, now approaching end-of-life in early 2025. With end-of-life fast approaching, Specsavers took the opportunity to upgrade their CMS to a platform which could better manage their multi-regional needs and provide a more flexible omnichannel approach to support future growth and ambitions.
     background: Light
+  - type: text
+    text: >-
+      \## Discovery
+
+
+      By the time I was brought into the project, Contentful was the chosen successor, so the main objective of my role during discovery was to audit the existing content and run workshops with the different regional stakeholders to outline gather high-level requirements and begin the process of defining a content model.
+    background: Light
 ---
