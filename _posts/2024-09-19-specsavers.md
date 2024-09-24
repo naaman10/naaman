@@ -34,6 +34,9 @@ sections:
       \## Discovery
 
 
-      By the time I was brought into the project, Contentful was the chosen successor, so the main objective of my role during discovery was to audit the existing content and run workshops with the different regional stakeholders to outline gather high-level requirements and begin the process of defining a content model.
+      By the time I was brought into the project, Contentful was the chosen successor, so the main objective of my role during discovery was to audit the existing content and run workshops with the different regional stakeholders to outline gather high-level requirements and begin defining a content model.
+
+
+      To carry out the content audit, the first step was to identify which pages are the high-traffic and high-value pages so that I could focus the content audit around priority pages, rather than auditing several thousand pages. Once these pages were identified and agreed upon with the client, I could then begin auditing the pages, defining the content structure of the page, and the individual components on the page
     background: Light
 ---
